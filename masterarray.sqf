@@ -400,7 +400,7 @@ INV_AlleItemsArray = [
 
 ["Diamondring",["Item", "misc"],["Diamond Ring", "Diamond Ring"],[150000, 150000], [0.5, ""], [true, true, true, false,"nouse.sqf"],"Diamond Ring","Sell at the Jewelry store", [["Diamond", 5],["Gold", 50]]],
 ["EDiamondring",["Item", "misc"],["Expensive Diamond Ring", "Expensive Diamond Ring"],[400000, 400000], [0.5, ""], [true, true, true, false,"nouse.sqf"],"Expensive Diamond Ring","Sell at the Jewelry store", [["Diamond", 15],["Gold", 50]]],
-["handy",["Item", "misc"], ["handy", "Mobile Phone"], [500, 300], [0.5, ""],[true,true,true, false, "handy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
+["handy",["Item", "misc"], ["handy", "Mobile Phone"], [500, 300], [0, ""],[true,true,true, false, "handy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
 
 ["emtcell",["Item", "misc"], ["emtcell", "Emergency Phone Calls"], [100, 50], [0.5, ""],[true,true,true, false, "EMThandy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
 
