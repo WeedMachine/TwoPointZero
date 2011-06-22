@@ -299,6 +299,20 @@ switch _key do
 
 	};
 
+	//5 key
+	case 6: 
+
+	{
+	if (!iscop) then
+		{
+		if(!INV_shortcuts)exitwith{};
+		_handled=true;
+		if(dialog)exitwith{closeDialog 0;};
+		
+		[0,0,0,["gangmenu"]] execVM "maindialogs.sqf";
+		};
+	};
+
 	//W key
 	case 17: 
 
