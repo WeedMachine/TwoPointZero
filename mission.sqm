@@ -114,7 +114,7 @@ class Mission
 	randomSeed=10513215;
 	class Intel
 	{
-		briefingName="Down Under Current V1.13 Old";
+		briefingName="Down Under Current V1.13d";
 		briefingDescription="By The DownUnder Community";
 		resistanceWest=0;
 		startWeather=0.011344254;
@@ -128,7 +128,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=242;
+		items=244;
 		class Item0
 		{
 			side="LOGIC";
@@ -1021,7 +1021,7 @@ class Mission
 				{
 					position[]={9365.3975,24.091467,5179.2881};
 					azimut=174.81808;
-					id=2484;
+					id=2477;
 					side="CIV";
 					vehicle="Rocker3";
 					leader=1;
@@ -1354,7 +1354,7 @@ class Mission
 			side="CIV";
 			class Vehicles
 			{
-				items=2;
+				items=1;
 				class Item0
 				{
 					position[]={13315.014,19.022482,6936.2373};
@@ -1366,17 +1366,6 @@ class Mission
 					skill=0.60000002;
 					text="copbank";
 					init="removeAllWeapons this; this disableAI ""move""; this disableAI ""anim"";  this allowdamage false;call compile ""[""""light"""", this, 0.1, [0.2, 0.2, 0]] execvm """"effects.sqf"""";"";this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1.01]; nul = this execVM ""nomove.sqf"";";
-				};
-				class Item1
-				{
-					position[]={13315.309,18.995275,6945.5195};
-					azimut=73.711113;
-					id=837;
-					side="CIV";
-					vehicle="Functionary1";
-					skill=0.60000002;
-					text="copshop";
-					init="removeAllWeapons this; this disableAI ""move""; this disableAI ""anim"";  this allowdamage false;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1.15];this setVectorUp [0, 0, 1]";
 				};
 			};
 		};
@@ -4695,15 +4684,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12538.066,178.95233,13428.049};
-					azimut=-201.49699;
-					id=2473;
+					position[]={19142.367,11.97,14000.639};
+					azimut=-236.99034;
+					id=2469;
 					side="CIV";
 					vehicle="HouseWife5";
 					leader=1;
 					skill=0.60000002;
 					health=0.377177;
-					text="fuelshop7";
+					text="fuelshop8";
 					init="this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this disableAI ""move"";this disableAI ""anim""; this allowdamage false; call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";"";";
 				};
 			};
@@ -4716,30 +4705,9 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={19142.367,11.97,14000.639};
-					azimut=-236.99034;
-					id=2476;
-					side="CIV";
-					vehicle="HouseWife5";
-					leader=1;
-					skill=0.60000002;
-					health=0.377177;
-					text="fuelshop8";
-					init="this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this disableAI ""move"";this disableAI ""anim""; this allowdamage false; call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";"";";
-				};
-			};
-		};
-		class Item232
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
 					position[]={9646.3857,139.995,9946.043};
 					azimut=7.0963502;
-					id=2481;
+					id=2474;
 					side="CIV";
 					vehicle="Damsel5";
 					leader=1;
@@ -4749,7 +4717,7 @@ class Mission
 				};
 			};
 		};
-		class Item233
+		class Item232
 		{
 			side="LOGIC";
 			class Vehicles
@@ -4759,7 +4727,7 @@ class Mission
 				{
 					position[]={18390.955,0.22357035,18104.223};
 					azimut=52.046055;
-					id=2482;
+					id=2475;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -4768,7 +4736,7 @@ class Mission
 				};
 			};
 		};
-		class Item234
+		class Item233
 		{
 			side="CIV";
 			class Vehicles
@@ -4778,7 +4746,7 @@ class Mission
 				{
 					position[]={18340.41,2.888175,18105.65};
 					azimut=478.53162;
-					id=2483;
+					id=2476;
 					side="CIV";
 					vehicle="Worker3";
 					leader=1;
@@ -4788,7 +4756,7 @@ class Mission
 				};
 			};
 		};
-		class Item235
+		class Item234
 		{
 			side="LOGIC";
 			class Vehicles
@@ -4798,7 +4766,7 @@ class Mission
 				{
 					position[]={12493.381,22.34267,6899.0776};
 					azimut=-356.58087;
-					id=2498;
+					id=2491;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -4807,17 +4775,17 @@ class Mission
 				};
 			};
 		};
-		class Item236
+		class Item235
 		{
 			side="CIV";
 			class Vehicles
 			{
-				items=2;
+				items=1;
 				class Item0
 				{
 					position[]={12473.654,22.014248,6914.2842};
 					azimut=146.39813;
-					id=2500;
+					id=2493;
 					side="CIV";
 					vehicle="Worker2";
 					leader=1;
@@ -4825,20 +4793,9 @@ class Mission
 					text="carshop4";
 					init=" call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";"";  this disableAI ""move""; this disableAI ""anim""; this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];  ";
 				};
-				class Item1
-				{
-					position[]={12480.235,21.662804,6914.937};
-					azimut=201.69482;
-					id=2497;
-					side="CIV";
-					vehicle="Profiteer2";
-					skill=0.60000002;
-					text="pickupshop2";
-					init="this disableAI ""move"";  this allowdamage false; this setpos [(getpos this select 0)-2, (getpos this select 1) - 2, getpos this select 2]; this disableAI ""anim""; ";
-				};
 			};
 		};
-		class Item237
+		class Item236
 		{
 			side="LOGIC";
 			class Vehicles
@@ -4848,7 +4805,7 @@ class Mission
 				{
 					position[]={12483.004,22.798063,6899.3853};
 					azimut=5.6354165;
-					id=2501;
+					id=2494;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -4858,7 +4815,7 @@ class Mission
 				};
 			};
 		};
-		class Item238
+		class Item237
 		{
 			side="CIV";
 			class Vehicles
@@ -4868,7 +4825,7 @@ class Mission
 				{
 					position[]={9428.5117,45.990002,5816.8472};
 					azimut=344.98126;
-					id=2495;
+					id=2488;
 					side="CIV";
 					vehicle="Functionary1";
 					leader=1;
@@ -4878,7 +4835,7 @@ class Mission
 				};
 			};
 		};
-		class Item239
+		class Item238
 		{
 			side="CIV";
 			class Vehicles
@@ -4898,7 +4855,7 @@ class Mission
 				};
 			};
 		};
-		class Item240
+		class Item239
 		{
 			side="CIV";
 			class Vehicles
@@ -4908,7 +4865,7 @@ class Mission
 				{
 					position[]={6918.7495,5.4658031,8217.5059};
 					azimut=386.896;
-					id=2489;
+					id=2482;
 					side="CIV";
 					vehicle="SchoolTeacher";
 					leader=1;
@@ -4918,7 +4875,7 @@ class Mission
 				};
 			};
 		};
-		class Item241
+		class Item240
 		{
 			side="CIV";
 			class Vehicles
@@ -4935,6 +4892,67 @@ class Mission
 					skill=0.60000002;
 					text="shop5";
 					init="this disableAI ""move"";  this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01]; this disableAI ""anim""; ";
+				};
+			};
+		};
+		class Item241
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12480.235,21.662804,6914.937};
+					azimut=201.69482;
+					id=2490;
+					side="CIV";
+					vehicle="Profiteer2";
+					leader=1;
+					skill=0.60000002;
+					text="pickupshop2";
+					init="this disableAI ""move"";  this allowdamage false; this setpos [(getpos this select 0)-2, (getpos this select 1) - 2, getpos this select 2]; this disableAI ""anim""; ";
+				};
+			};
+		};
+		class Item242
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13315.309,18.995275,6945.5195};
+					azimut=73.711113;
+					id=837;
+					side="CIV";
+					vehicle="Functionary1";
+					leader=1;
+					skill=0.60000002;
+					text="copshop";
+					init="removeAllWeapons this; this disableAI ""move""; this disableAI ""anim"";  this allowdamage false;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1.15];this setVectorUp [0, 0, 1]";
+				};
+			};
+		};
+		class Item243
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12358.271,197.99835,14602.428};
+					azimut=-189.78496;
+					id=2503;
+					side="CIV";
+					vehicle="HouseWife5";
+					leader=1;
+					skill=0.60000002;
+					health=0.377177;
+					text="fuelshop7";
+					init="this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this disableAI ""move"";this disableAI ""anim""; this allowdamage false; call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";"";";
 				};
 			};
 		};
@@ -27485,249 +27503,250 @@ class Mission
 		};
 		class Item2214
 		{
-			position[]={12535.616,178.62448,13413.6};
-			azimut=-1180.04;
-			id=2446;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Feed";
-			leader=1;
-			skill=0.60000002;
-			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]  ";
-		};
-		class Item2215
-		{
-			position[]={12549.315,178.2364,13416.158};
-			azimut=-1180.03;
-			id=2447;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Feed";
-			leader=1;
-			skill=0.60000002;
-			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1.0];this setVectorUp [0, 0, 1] ";
-		};
-		class Item2216
-		{
-			position[]={12542.48,178.39467,13414.868};
-			azimut=-10.91261;
-			id=2448;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Shed";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]";
-		};
-		class Item2217
-		{
-			position[]={12552.338,178.25542,13412.813};
-			azimut=-820.29028;
-			id=2449;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Sign";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
-		};
-		class Item2218
-		{
 			position[]={14256.723,42.879753,10404.527};
 			azimut=-699.78284;
-			id=2450;
+			id=2446;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Build";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
-		class Item2219
+		class Item2215
 		{
 			position[]={14257.215,42.69379,10387.364};
 			azimut=-970.42499;
-			id=2451;
+			id=2447;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
 			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.7];this setVectorUp [0, 0, 1]  ";
 		};
-		class Item2220
+		class Item2216
 		{
 			position[]={14244.039,42.713272,10391.906};
 			azimut=-970.42499;
-			id=2452;
+			id=2448;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
 			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1] ";
 		};
-		class Item2221
+		class Item2217
 		{
 			position[]={14250.617,42.449348,10389.66};
 			azimut=198.69754;
-			id=2453;
+			id=2449;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Shed";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]";
 		};
-		class Item2222
+		class Item2218
 		{
 			position[]={14240.686,42.877506,10393.077};
 			azimut=-610.68018;
-			id=2454;
+			id=2450;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Sign";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
-		class Item2223
+		class Item2219
 		{
 			position[]={15592.438,59.737785,13868.028};
 			azimut=-144.23235;
-			id=2455;
+			id=2451;
 			side="AMBIENT LIFE";
 			vehicle="Sheep";
 			skill=0.60000002;
 			text="c_21_7_1";
 		};
-		class Item2224
+		class Item2220
 		{
 			position[]={15603.12,66.394936,13867.428};
 			azimut=-708.23901;
-			id=2456;
+			id=2452;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Build";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.2];this setVectorUp [0, 0, 1]";
 		};
-		class Item2225
+		class Item2221
 		{
 			position[]={15600.43,66.384323,13856.427};
 			azimut=-1065.6899;
-			id=2457;
+			id=2453;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
 			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.6];this setVectorUp [0, 0, 1] ";
 		};
-		class Item2226
+		class Item2222
 		{
 			position[]={15602.181,66.375931,13863.162};
 			azimut=103.43134;
-			id=2458;
+			id=2454;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Shed";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]";
 		};
-		class Item2227
+		class Item2223
 		{
 			position[]={15599.688,59.674446,13853.218};
 			azimut=-705.94617;
-			id=2459;
+			id=2455;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Sign";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
-		class Item2228
+		class Item2224
 		{
 			position[]={19164.16,18.361561,13985.601};
 			azimut=-1128.2551;
-			id=2460;
+			id=2456;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
 			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.9];this setVectorUp [0, 0, 1] ";
 		};
-		class Item2229
+		class Item2225
 		{
 			position[]={19159.334,18.332649,13990.185};
 			azimut=40.863667;
-			id=2461;
+			id=2457;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Shed";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]";
 		};
-		class Item2230
+		class Item2226
 		{
 			position[]={19151.496,11.97,14009.041};
 			azimut=-859.48145;
-			id=2462;
+			id=2458;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Sign";
 			leader=1;
 			skill=0.60000002;
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
-		class Item2231
+		class Item2227
 		{
 			position[]={19153.984,18.360395,13994.771};
 			azimut=-1128.2551;
-			id=2463;
+			id=2459;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
 			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.9];this setVectorUp [0, 0, 1] ";
 		};
-		class Item2232
+		class Item2228
 		{
 			position[]={28693.531,0.61488652,18025.332};
 			azimut=-469.45831;
-			id=2464;
+			id=2460;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			leader=1;
 			skill=0.60000002;
 			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
 		};
-		class Item2233
+		class Item2229
 		{
 			position[]={28707.418,0.65409446,18036.256};
 			azimut=-469.45831;
-			id=2465;
+			id=2461;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			leader=1;
 			skill=0.60000002;
 			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
 		};
-		class Item2234
+		class Item2230
 		{
 			position[]={28707.418,0.65409446,18036.256};
 			azimut=-469.45831;
-			id=2466;
+			id=2462;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			leader=1;
 			skill=0.60000002;
 			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
 		};
-		class Item2235
+		class Item2231
 		{
 			position[]={28707.418,0.65409446,18036.256};
 			azimut=-469.45831;
-			id=2467;
+			id=2463;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			leader=1;
 			skill=0.60000002;
 			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
 		};
-		class Item2236
+		class Item2232
 		{
 			position[]={10148.482,60.807259,6420.4375};
 			azimut=-1438.9803;
+			id=2464;
+			side="EMPTY";
+			vehicle="Land_A_FuelStation_Feed";
+			leader=1;
+			skill=0.60000002;
+			init="this setfuelcargo 0; ";
+		};
+		class Item2233
+		{
+			position[]={15602.157,66.356186,13863.086};
+			azimut=-1067.4333;
+			id=2465;
+			side="EMPTY";
+			vehicle="Land_A_FuelStation_Feed";
+			leader=1;
+			skill=0.60000002;
+			text="fuel4_2";
+			init="this setfuelcargo 0; ";
+		};
+		class Item2234
+		{
+			position[]={12396.439,31.039827,7453.0688};
+			azimut=-1171.1671;
+			id=2466;
+			side="EMPTY";
+			vehicle="Land_A_FuelStation_Feed";
+			leader=1;
+			skill=0.60000002;
+			init="this setfuelcargo 0; ";
+		};
+		class Item2235
+		{
+			position[]={9627.54,146.35725,9957.6055};
+			azimut=-1260.4445;
+			id=2467;
+			side="EMPTY";
+			vehicle="Land_A_FuelStation_Feed";
+			leader=1;
+			skill=0.60000002;
+			init="this setfuelcargo 0; ";
+		};
+		class Item2236
+		{
+			position[]={14250.206,48.818562,10389.639};
+			azimut=-1151.1304;
 			id=2468;
 			side="EMPTY";
 			vehicle="Land_A_FuelStation_Feed";
@@ -27737,32 +27756,30 @@ class Mission
 		};
 		class Item2237
 		{
-			position[]={15602.157,66.356186,13863.086};
-			azimut=-1067.4333;
-			id=2469;
-			side="EMPTY";
-			vehicle="Land_A_FuelStation_Feed";
-			leader=1;
+			position[]={19147.203,11.97,13998.58};
+			azimut=-203.23824;
+			id=2470;
+			side="AMBIENT LIFE";
+			vehicle="Sheep";
 			skill=0.60000002;
-			text="fuel4_2";
-			init="this setfuelcargo 0; ";
+			text="c_21_7_3";
 		};
 		class Item2238
 		{
-			position[]={12396.439,31.039827,7453.0688};
-			azimut=-1171.1671;
-			id=2470;
+			position[]={19144.393,11.97,14000.933};
+			azimut=-767.24463;
+			id=2471;
 			side="EMPTY";
-			vehicle="Land_A_FuelStation_Feed";
+			vehicle="MAP_A_FuelStation_Build";
 			leader=1;
 			skill=0.60000002;
-			init="this setfuelcargo 0; ";
+			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
 		class Item2239
 		{
-			position[]={9627.54,146.35725,9957.6055};
-			azimut=-1260.4445;
-			id=2471;
+			position[]={19159.328,18.331442,13990.087};
+			azimut=-1129.146;
+			id=2472;
 			side="EMPTY";
 			vehicle="Land_A_FuelStation_Feed";
 			leader=1;
@@ -27771,94 +27788,92 @@ class Mission
 		};
 		class Item2240
 		{
-			position[]={14250.206,48.818562,10389.639};
-			azimut=-1151.1304;
-			id=2472;
+			position[]={9644.5977,139.995,9947.1211};
+			azimut=-899.578;
+			id=2473;
 			side="EMPTY";
-			vehicle="Land_A_FuelStation_Feed";
+			vehicle="MAP_A_FuelStation_Build";
 			leader=1;
 			skill=0.60000002;
-			init="this setfuelcargo 0; ";
+			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
 		class Item2241
 		{
-			position[]={12540.795,178.6037,13423.544};
-			azimut=-167.74524;
-			id=2474;
-			side="AMBIENT LIFE";
-			vehicle="Sheep";
-			skill=0.60000002;
-			text="c_21_7_2";
-		};
-		class Item2242
-		{
-			position[]={12539.891,178.84364,13427.102};
-			azimut=-731.75159;
-			id=2475;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Build";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
-		};
-		class Item2243
-		{
-			position[]={19147.203,11.97,13998.58};
-			azimut=-203.23824;
-			id=2477;
-			side="AMBIENT LIFE";
-			vehicle="Sheep";
-			skill=0.60000002;
-			text="c_21_7_3";
-		};
-		class Item2244
-		{
-			position[]={19144.393,11.97,14000.933};
-			azimut=-767.24463;
-			id=2478;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Build";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
-		};
-		class Item2245
-		{
-			position[]={19159.328,18.331442,13990.087};
-			azimut=-1129.146;
-			id=2479;
-			side="EMPTY";
-			vehicle="Land_A_FuelStation_Feed";
-			leader=1;
-			skill=0.60000002;
-			init="this setfuelcargo 0; ";
-		};
-		class Item2246
-		{
-			position[]={9644.5977,139.995,9947.1211};
-			azimut=-899.578;
-			id=2480;
-			side="EMPTY";
-			vehicle="MAP_A_FuelStation_Build";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
-		};
-		class Item2247
-		{
 			position[]={9365.2412,24.093302,5180.6104};
 			azimut=439.8179;
-			id=2485;
+			id=2478;
 			side="EMPTY";
 			vehicle="BAF_IEDBox";
 			skill=0.60000002;
 			text="blackbox";
 			init="this allowdamage false;clearMagazineCargo this; clearWeaponCargo this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.07];";
 		};
-		class Item2248
+		class Item2242
 		{
 			position[]={11155.37,4.9454269,16962.338};
 			azimut=-470.55301;
+			id=2479;
+			side="EMPTY";
+			vehicle="HeliHEmpty";
+			leader=1;
+			skill=0.60000002;
+			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
+		};
+		class Item2243
+		{
+			position[]={11160.075,4.3651648,16965.998};
+			id=2480;
+			side="EMPTY";
+			vehicle="FlagCarrierCDF";
+			skill=0.60000002;
+			text="gangarea6_1";
+		};
+		class Item2244
+		{
+			position[]={11162.236,4.6149664,16963.777};
+			azimut=-452.233;
+			id=2481;
+			side="EMPTY";
+			vehicle="Radio";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			init="nul = [this, ""ACDC_Rock_N_Roll_Train"", 215, 30] execVM ""radio.sqf"";";
+		};
+		class Item2245
+		{
+			position[]={6916.3628,5.3135219,8218.6211};
+			azimut=106.559;
+			id=2483;
+			side="EMPTY";
+			vehicle="LocalBasicWeaponsBox";
+			skill=0.60000002;
+			text="igunbox1";
+			init="this allowdamage false;clearMagazineCargo this; clearWeaponCargo this;";
+		};
+		class Item2246
+		{
+			position[]={6913.2349,5.1604095,8219.7998};
+			azimut=489.94778;
+			id=2484;
+			side="EMPTY";
+			vehicle="Land_Fire_barrel_burning";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item2247
+		{
+			position[]={6919.6294,5.8538127,8215.0742};
+			azimut=236.89583;
+			id=2485;
+			side="EMPTY";
+			vehicle="FlagCarrierCDF";
+			skill=0.60000002;
+		};
+		class Item2248
+		{
+			position[]={6917.5933,5.0710654,8220.0107};
+			azimut=-233.65721;
 			id=2486;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
@@ -27868,60 +27883,66 @@ class Mission
 		};
 		class Item2249
 		{
-			position[]={11160.075,4.3651648,16965.998};
+			position[]={6919.7847,5.0413899,8227.6777};
+			azimut=-162.88792;
 			id=2487;
 			side="EMPTY";
-			vehicle="FlagCarrierCDF";
-			skill=0.60000002;
-			text="gangarea6_1";
-		};
-		class Item2250
-		{
-			position[]={11162.236,4.6149664,16963.777};
-			azimut=-452.233;
-			id=2488;
-			side="EMPTY";
-			vehicle="Radio";
+			vehicle="Sr_border";
 			leader=1;
 			lock="LOCKED";
 			skill=0.60000002;
-			init="nul = [this, ""ACDC_Rock_N_Roll_Train"", 215, 30] execVM ""radio.sqf"";";
+			init="this allowdamage false;";
+		};
+		class Item2250
+		{
+			position[]={9429.7871,45.990002,5811.0493};
+			azimut=-470.55301;
+			id=2489;
+			side="EMPTY";
+			vehicle="HeliHEmpty";
+			leader=1;
+			skill=0.60000002;
+			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
 		};
 		class Item2251
 		{
-			position[]={6916.3628,5.3135219,8218.6211};
-			azimut=106.559;
-			id=2490;
+			position[]={12492.712,22.37278,6900.3945};
+			azimut=-379.24402;
+			id=2492;
 			side="EMPTY";
-			vehicle="LocalBasicWeaponsBox";
+			vehicle="HeliHEmpty";
+			leader=1;
 			skill=0.60000002;
-			text="igunbox1";
-			init="this allowdamage false;clearMagazineCargo this; clearWeaponCargo this;";
+			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
 		};
 		class Item2252
 		{
-			position[]={6913.2349,5.1604095,8219.7998};
-			azimut=489.94778;
-			id=2491;
+			position[]={12493.418,22.332747,6898.8594};
+			azimut=-354.1203;
+			id=2495;
 			side="EMPTY";
-			vehicle="Land_Fire_barrel_burning";
+			vehicle="Sr_border";
 			leader=1;
+			lock="LOCKED";
 			skill=0.60000002;
+			init="this allowdamage false;";
 		};
 		class Item2253
 		{
-			position[]={6919.6294,5.8538127,8215.0742};
-			azimut=236.89583;
-			id=2492;
+			position[]={12476.855,21.697693,6916.3018};
+			azimut=538.67377;
+			id=2496;
 			side="EMPTY";
-			vehicle="FlagCarrierCDF";
+			vehicle="Land_House_C_12_EP1";
+			leader=1;
 			skill=0.60000002;
+			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.3];this setVectorUp [0, 0, 1]";
 		};
 		class Item2254
 		{
-			position[]={6917.5933,5.0710654,8220.0107};
-			azimut=-233.65721;
-			id=2493;
+			position[]={12483.729,22.64357,6901.7192};
+			azimut=-507.50812;
+			id=2497;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			leader=1;
@@ -27930,9 +27951,9 @@ class Mission
 		};
 		class Item2255
 		{
-			position[]={6919.7847,5.0413899,8227.6777};
-			azimut=-162.88792;
-			id=2494;
+			position[]={12482.61,22.801561,6899.0376};
+			azimut=-354.1203;
+			id=2498;
 			side="EMPTY";
 			vehicle="Sr_border";
 			leader=1;
@@ -27942,71 +27963,68 @@ class Mission
 		};
 		class Item2256
 		{
-			position[]={9429.7871,45.990002,5811.0493};
-			azimut=-470.55301;
-			id=2496;
+			position[]={12352.942,199.59406,14588.781};
+			azimut=-1168.3282;
+			id=2499;
 			side="EMPTY";
-			vehicle="HeliHEmpty";
+			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
-			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
+			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]  ";
 		};
 		class Item2257
 		{
-			position[]={12492.712,22.37278,6900.3945};
-			azimut=-379.24402;
-			id=2499;
+			position[]={12366.871,200.22659,14588.508};
+			azimut=-1168.3182;
+			id=2500;
 			side="EMPTY";
-			vehicle="HeliHEmpty";
+			vehicle="MAP_A_FuelStation_Feed";
 			leader=1;
 			skill=0.60000002;
-			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
+			init="this setfuelcargo 0;this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1.0];this setVectorUp [0, 0, 1] ";
 		};
 		class Item2258
 		{
-			position[]={12493.418,22.332747,6898.8594};
-			azimut=-354.1203;
-			id=2502;
+			position[]={12359.924,199.80421,14588.625};
+			azimut=0.79927081;
+			id=2501;
 			side="EMPTY";
-			vehicle="Sr_border";
+			vehicle="MAP_A_FuelStation_Shed";
 			leader=1;
-			lock="LOCKED";
 			skill=0.60000002;
-			init="this allowdamage false;";
+			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.01];this setVectorUp [0, 0, 1]";
 		};
 		class Item2259
 		{
-			position[]={12476.855,21.697693,6916.3018};
-			azimut=538.67377;
-			id=2503;
+			position[]={12369.155,200.86626,14584.609};
+			azimut=-808.57861;
+			id=2502;
 			side="EMPTY";
-			vehicle="Land_House_C_12_EP1";
+			vehicle="MAP_A_FuelStation_Sign";
 			leader=1;
 			skill=0.60000002;
-			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.3];this setVectorUp [0, 0, 1]";
+			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
 		class Item2260
 		{
-			position[]={12483.729,22.64357,6901.7192};
-			azimut=-507.50812;
+			position[]={12360.032,198.61626,14597.464};
+			azimut=-156.03322;
 			id=2504;
-			side="EMPTY";
-			vehicle="HeliHEmpty";
-			leader=1;
+			side="AMBIENT LIFE";
+			vehicle="Sheep";
 			skill=0.60000002;
-			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[""""light"""", this, 0.2] execvm """"effects.sqf"""";"";";
+			text="c_21_7_2";
 		};
 		class Item2261
 		{
-			position[]={12482.61,22.801561,6899.0376};
-			azimut=-354.1203;
+			position[]={12359.871,198.13483,14601.127};
+			azimut=-720.03992;
 			id=2505;
 			side="EMPTY";
-			vehicle="Sr_border";
+			vehicle="MAP_A_FuelStation_Build";
 			leader=1;
-			lock="LOCKED";
 			skill=0.60000002;
-			init="this allowdamage false;";
+			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.1];this setVectorUp [0, 0, 1]";
 		};
 	};
 	class Markers
@@ -30566,17 +30584,6 @@ class Mission
 		};
 		class Item283
 		{
-			position[]={12538.255,178.94952,13428.096};
-			name="station7";
-			text="Hey Bru Servo";
-			type="mil_box";
-			colorName="ColorBlack";
-			a=0.69999999;
-			b=0.69999999;
-			angle=-275.79999;
-		};
-		class Item284
-		{
 			position[]={19142.48,11.97,14000.809};
 			name="station8";
 			text="Buzz's Servo";
@@ -30586,7 +30593,7 @@ class Mission
 			b=0.69999999;
 			angle=-311.293;
 		};
-		class Item285
+		class Item284
 		{
 			position[]={18384.467,0.22642931,18112.457};
 			name="boatdocks_1";
@@ -30597,7 +30604,7 @@ class Mission
 			b=0.69999999;
 			angle=55.435081;
 		};
-		class Item286
+		class Item285
 		{
 			position[]={18376.787,0.41644663,18104.828};
 			name="Boat shop_1";
@@ -30606,7 +30613,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=367.03101;
 		};
-		class Item287
+		class Item286
 		{
 			position[]={11159.053,3.9514141,16970.301};
 			name="gangarea6_1";
@@ -30617,7 +30624,7 @@ class Mission
 			a=80;
 			b=80;
 		};
-		class Item288
+		class Item287
 		{
 			position[]={11160.025,4.2900457,16966.666};
 			name="gangmarker6_1";
@@ -30627,7 +30634,7 @@ class Mission
 			a=0.69999999;
 			b=0.69999999;
 		};
-		class Item289
+		class Item288
 		{
 			position[]={6917.8042,5.3205338,8218.4648};
 			name="gunfactory_2";
@@ -30638,7 +30645,7 @@ class Mission
 			b=0.69999999;
 			angle=1.30768;
 		};
-		class Item290
+		class Item289
 		{
 			position[]={9427.0938,45.990002,5812.0854};
 			name="oilFactory_1";
@@ -30648,7 +30655,7 @@ class Mission
 			a=0.69999999;
 			b=0.69999999;
 		};
-		class Item291
+		class Item290
 		{
 			position[]={12476.963,21.704967,6916.1602};
 			name="pickupshop";
@@ -30658,6 +30665,17 @@ class Mission
 			a=0.69999999;
 			b=0.69999999;
 			angle=356.19943;
+		};
+		class Item291
+		{
+			position[]={12358.472,197.99429,14602.438};
+			name="station7";
+			text="Hey Bru Servo";
+			type="mil_box";
+			colorName="ColorBlack";
+			a=0.69999999;
+			b=0.69999999;
+			angle=-264.0881;
 		};
 	};
 	class Sensors

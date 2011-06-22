@@ -1,3 +1,7 @@
+if(!(_license call INV_HasLicense))exitwith{player groupchat "you do not have the license to do this"; _exitvar = 1;};
+
+if(_exitvar == 1)exitwith{processscriptrunning = 0}; //Resets itself everytime if there is no license
+
 if(processscriptrunning == 1) exitwith { player groupchat "We're Working as fast as we can. Please wait till we are done before giving us another task";};
  spamcount = spamcount + 1;
  if (spamcount == 5) then {player globalChat "I have spammed the Process script 5 times, ignoring the text that tells me I cannot run this script multiple times"}; 
@@ -18,9 +22,7 @@ _nitem1  = _item1 call INV_GetItemAmount;
 _name1   = _item1 call INV_getitemName;
 _name2   = _item2 call INV_getitemName;
 
-if(!(_license call INV_HasLicense))exitwith{player groupchat "you do not have the license to do this"; _exitvar = 1;};
 
-if(_exitvar == 1)exitwith{processscriptrunning = 0}; //This is a fix for shop access bug.
 
 _multi = floor(_nitem1/_req);
 _total = _req*_multi;
@@ -30,4 +32,4 @@ _total = _req*_multi;
 
 player groupchat format["%1 %2 was processed into %3 %4!", _total, _name1, _multi, _name2];
 
- processscriptrunning = 0; // Tweaked by Radioman
+ processscriptrunning = 0; // Tweaked by Weed, Moved the Check License to the top because its bugging out the script.
