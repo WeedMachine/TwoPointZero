@@ -312,7 +312,7 @@ switch _key do
 		[0,0,0,["gangmenu"]] execVM "maindialogs.sqf";
 		};
 	};
-
+		
 	//W key
 	case 17: 
 

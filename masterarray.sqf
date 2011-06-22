@@ -242,7 +242,7 @@ INV_AlleFahrzeugeArray = [
 
 ///////////////////////////////////////////////////////////Trucks/////////////////////////////////////////////////////////////////////////
 
-["mackr",["Fahrzeug", "truck"],["mackr", "Mack Truck"],[30000, 28000], [3, "truck", "patrol_training", 400], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
+["mackr",["Fahrzeug", "truck"],["mackr", "Mack Truck"],[130000, 128000], [3, "truck", "patrol_training", 400], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
 ["V3S_Civ",["Fahrzeug", "truck"],["Praha V3S", "Praha V3S"],[40000, 30000], [3, "truck", "patrol_training", 600], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
 ["Ural_CDF",["Fahrzeug", "truck"],["Ural_CDF", "Ural"],[40000, 30000], [3, "truck", "patrol_training", 600], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
 ["UralOpen_CDF", ["Fahrzeug", "truck"],["UralOpen", "Ural Open"], [40000, 30000],[3, "truck", "patrol_training", 600], [500, [1,0,0,13] ], "Truck5tOpen" call ISSE_Cfg_Vehicle_GetName, "Truck5tOpen" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],

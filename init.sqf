@@ -82,7 +82,7 @@ EAST setFriend [WEST, 1];
 version        	= "V1.13";
 compatible     	= 102;
 internDebug    	= false;
-debug          	= true;
+debug          	= false;
 addonversion   	= false;
 dedicatedServer = false;
 copscount      	= 10;
