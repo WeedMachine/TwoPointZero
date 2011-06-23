@@ -19,6 +19,17 @@ switch _key do
 
 {
 	
+
+	//y key
+	case 21:
+	{
+	if(dialog)exitwith{closeDialog 0;};		
+	if(!INV_shortcuts)exitwith{};
+	_handled=true;
+	[] execVM "animdlgopen.sqf";
+		
+	};
+
 	//TAB key
 	case 15: 
 
