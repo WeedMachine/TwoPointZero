@@ -64,6 +64,3 @@ while {(_ctime > 0) and (_finish == 0)}  do
 		};
 
 	};
-
-
-};
