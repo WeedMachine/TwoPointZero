@@ -119,6 +119,7 @@ _itemfactory=
 "handy",
 "reparaturkit",
 "kleinesreparaturkit",
+"kanister",
 "nitro",
 "lockpick",
 "gasmask",
