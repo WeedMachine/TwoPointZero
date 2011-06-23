@@ -232,12 +232,12 @@ INV_AlleFahrzeugeArray = [
 
 ///////////////////////////////////////////////////////////Cop Cars////////////////////////////////////////////////////////////////////
 
-["Copcar",["Fahrzeug", "car"],["Copcar", "Holden Monaro Police (Basic)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,1] ], "Copcar" call ISSE_Cfg_Vehicle_GetName,"Copcar" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
-["Copcarnz",["Fahrzeug", "car"],["Copcarnz", "Holden Monaro Police (New Zealand)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,1] ], "Copcarnz" call ISSE_Cfg_Vehicle_GetName,"Copcarnz" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
-["Copcarhw",["Fahrzeug", "car"],["Copcarhw", "Holden Monaro Highway patrol (Maroon)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,1] ], "Copcarhw" call ISSE_Cfg_Vehicle_GetName,"Copcarhw" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
-["Copcarhw2",["Fahrzeug", "car"],["Copcarhw2", "Holden Monaro Highway patrol (White)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,1] ], "Copcarhw2" call ISSE_Cfg_Vehicle_GetName,"Copcarhw2" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
-["Copcaraus",["Fahrzeug", "car"],["Copcaraus", "Holden Monaro Australia (Blue)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,1] ], "Copcaraus" call ISSE_Cfg_Vehicle_GetName,"Copcaraus" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
-["CopcarAusgreen",["Fahrzeug", "car"],["CopcarAusgreen", "Holden Monaro Australia (Green)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,1] ], "CopcarAusgreen" call ISSE_Cfg_Vehicle_GetName,"CopcarAusgreen" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
+["Copcar",["Fahrzeug", "car"],["Copcar", "Holden Monaro Police (Basic)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,3] ], "Copcar" call ISSE_Cfg_Vehicle_GetName,"Copcar" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
+["Copcarnz",["Fahrzeug", "car"],["Copcarnz", "Holden Monaro Police (New Zealand)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,3] ], "Copcarnz" call ISSE_Cfg_Vehicle_GetName,"Copcarnz" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
+["Copcarhw",["Fahrzeug", "car"],["Copcarhw", "Holden Monaro Highway patrol (Maroon)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,3] ], "Copcarhw" call ISSE_Cfg_Vehicle_GetName,"Copcarhw" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
+["Copcarhw2",["Fahrzeug", "car"],["Copcarhw2", "Holden Monaro Highway patrol (White)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,3] ], "Copcarhw2" call ISSE_Cfg_Vehicle_GetName,"Copcarhw2" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
+["Copcaraus",["Fahrzeug", "car"],["Copcaraus", "Holden Monaro Australia (Blue)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,3] ], "Copcaraus" call ISSE_Cfg_Vehicle_GetName,"Copcaraus" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
+["CopcarAusgreen",["Fahrzeug", "car"],["CopcarAusgreen", "Holden Monaro Australia (Green)"],[15000, 13000], [2, "car", "", 180], [350, [1,0,0,3] ], "CopcarAusgreen" call ISSE_Cfg_Vehicle_GetName,"CopcarAusgreen" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 10],["ebauteile", 1],["glas", 2],["plastik", 2],["erdoel", 5]] ], 
 ["HMMWV",["Fahrzeug", "truck"],["HMMWV", "HMMWV"], [35000, 30250], [2, "car", "response_training", 160], [350, [1,1,0,3] ], "HMMWV" call ISSE_Cfg_Vehicle_GetName, "HMMWV" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 14],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 5]] ],
 
 ///////////////////////////////////////////////////////////Trucks/////////////////////////////////////////////////////////////////////////
@@ -277,7 +277,7 @@ INV_AlleItemsArray = [
   ["Item name", "Item display name"],
   [Buy Price, Sell Price],
   [Weight?, Licence required?],
-  [Something, Something, Something, IsIllegal, "Script to run on 'use'"]
+  [Dropable?, Giveable?, Something, IsIllegal, "Script to run on 'use'"]
   String name for item, String description for item, 
   [ something or nothing ]
  ]
@@ -400,9 +400,9 @@ INV_AlleItemsArray = [
 
 ["Diamondring",["Item", "misc"],["Diamond Ring", "Diamond Ring"],[150000, 150000], [0.5, ""], [true, true, true, false,"nouse.sqf"],"Diamond Ring","Sell at the Jewelry store", [["Diamond", 5],["Gold", 50]]],
 ["EDiamondring",["Item", "misc"],["Expensive Diamond Ring", "Expensive Diamond Ring"],[400000, 400000], [0.5, ""], [true, true, true, false,"nouse.sqf"],"Expensive Diamond Ring","Sell at the Jewelry store", [["Diamond", 15],["Gold", 50]]],
-["handy",["Item", "misc"], ["handy", "Mobile Phone"], [500, 300], [0, ""],[true,true,true, false, "handy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
+["handy",["Item", "misc"], ["handy", "Mobile Phone"], [500, 300], [0, ""],[false,false,false, false, "handy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
 
-["emtcell",["Item", "misc"], ["emtcell", "Emergency Phone Calls"], [100, 50], [0.5, ""],[true,true,true, false, "EMThandy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
+["emtcell",["Item", "misc"], ["emtcell", "Emergency Phone Calls"], [100, 50], [0.5, ""],[false,false,false, false, "EMThandy.sqf"], localize "STRS_inv_item_handy",localize "STRS_inv_item_handy_info", [["plastik", 2],["ebauteile", 2]]],
 
 ["gasmask", ["Item", "misc"], ["gasmask", "Gas mask"],[150, 50], [2, "terrorist", "response_training"],[true,true,true, false, "nouse.sqf"], localize "STRS_item_gasmask", localize "STRS_item_gasmask_info",[["plastik", 3]] ],
 ["hideout",["Item", "misc"],["hideout", "Hideout"],[15000, 12000], [0, ""], [false, true, false,false,"hideout.sqf"],localize "STRS_item_hideout",localize "STRS_item_hideout_info", [] ],
