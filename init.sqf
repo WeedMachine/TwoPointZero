@@ -150,6 +150,10 @@ _h = [] execVM "initCarRadio.sqf";
 
 waitUntil{scriptDone  _h};
 
+_h = [] execVM "animList.sqf";
+
+waitUntil{scriptDone  _h};
+
 [SkipTimeDay, SkipTimeNight, 1] execVM "skiptime.sqf"; 
 [] execVM "weather.sqf";
 setPitchBank = compile preprocessfile "setPitchBank.sqf";
