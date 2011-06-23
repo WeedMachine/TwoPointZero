@@ -108,10 +108,10 @@ if (_basickind == "receivecall") then
 
 {
 	mydamnid = nil;
-	_subkind = _this select 1;
-	_transferedtext = _this select 2;
-	_callersname = _this select 3;
-	_markercreatepos = _this select 4;
+	_subkind = _array select 1;
+	_transferedtext = _array select 2;
+	_callersname = _array select 3;
+	_markercreatepos = _array select 4;
 	
 
 	if (_subkind == "callpolice") then {
