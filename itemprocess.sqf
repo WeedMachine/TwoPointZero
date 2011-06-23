@@ -1,6 +1,4 @@
-if(!(_license call INV_HasLicense))exitwith{player groupchat "you do not have the license to do this"; _exitvar = 1;};
-
-if(_exitvar == 1)exitwith{processscriptrunning = 0}; //Resets itself everytime if there is no license
+if(!(_license call INV_HasLicense))exitwith{player groupchat "you do not have the license to do this";};
 
 if(processscriptrunning == 1) exitwith { player groupchat "We're Working as fast as we can. Please wait till we are done before giving us another task";};
  spamcount = spamcount + 1;
