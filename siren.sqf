@@ -114,10 +114,11 @@ if (_art == "licht") then
 	_light1 = ((_this select 2) select 0);
 	_light2 = ((_this select 2) select 1);
 
-	_vcl animate ["Copcarlightsonly", 1]; //Holden Monaro Lights on when push F
+
 	
 	while {true} do
 	{
+		_vcl animate ["Copcarlightsonly", 1]; //Holden Monaro Lights on when push F
 		if (player in _vcl) then 
 		{
 			_light1 setLightBrightness (_lichtstaerke / 2);
@@ -165,4 +166,5 @@ if (_art == "licht") then
 
 		sleep 0.5;
 	};
+	_vcl animate ["Copcarlightsonly", 0]; //Holden Monaro Lights on when push F
 };
