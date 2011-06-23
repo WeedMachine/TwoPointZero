@@ -1,3 +1,5 @@
+
+private ["_trgobj"];
 _trgobj = createTrigger ["EmptyDetector", position player ];
 _trgobj setTriggerText "Fix head bug";
 _trgobj setTriggerActivation ["JULIET", "PRESENT", true];
