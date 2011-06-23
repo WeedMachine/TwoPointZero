@@ -1,3 +1,5 @@
+
+private ["_com"];
 _com = _this select 3;
 
 if ((typeName _com) == "ARRAY") then 

@@ -115,7 +115,7 @@ class RscMandButton
         colorText[] = {0, 0, 0, 1};
         font = FontMandHTML;
         sizeEx = 0.025;
-        soundPush[] = {, 0.2, 1};
+        soundPush[] = {0, 0.2, 1};
         soundClick[] = {"ui\ui_cc", 0.2, 1};
         soundEscape[] = {"ui\ui_cc", 0.2, 1};
         default = false;
