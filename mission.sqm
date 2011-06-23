@@ -128,7 +128,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=244;
+		items=245;
 		class Item0
 		{
 			side="LOGIC";
@@ -2589,8 +2589,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9719.8848,15.03,11031.615};
-					azimut=282.28201;
+					position[]={10135.107,114.01128,14091.523};
+					azimut=585.69684;
 					id=259;
 					side="CIV";
 					vehicle="Farmwife2";
@@ -4956,10 +4956,30 @@ class Mission
 				};
 			};
 		};
+		class Item244
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9719.6514,15.03,11030.556};
+					azimut=282.28201;
+					id=2619;
+					side="CIV";
+					vehicle="Secretary3";
+					leader=1;
+					skill=0.60000002;
+					text="drugbuy2";
+					init="this disableAI ""move""; this disableAI ""anim""; this allowdamage false; ";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=2375;
+		items=2376;
 		class Item0
 		{
 			position[]={13783.199,34.965,11509.945};
@@ -29157,10 +29177,18 @@ class Mission
 			text="Hospitaltent";
 			init="this allowdamage false; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.65];";
 		};
+		class Item2375
+		{
+			position[]={10133.554,113.16326,14095.238};
+			id=2620;
+			side="EMPTY";
+			vehicle="FlagCarrierCDF";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=294;
+		items=295;
 		class Item0
 		{
 			position[]={11506.658,35.676338,6369.1094};
@@ -31534,7 +31562,7 @@ class Mission
 		};
 		class Item264
 		{
-			position[]={9716.8877,15.03,11032.507};
+			position[]={9718.7754,15.03,11031.032};
 			name="Seed Shop_1";
 			text="Seed Shop";
 			type="mil_flag";
@@ -31829,6 +31857,17 @@ class Mission
 			name="hospitaltent";
 			type="Empty";
 			angle=-129.28369;
+		};
+		class Item294
+		{
+			position[]={10136.176,114.46171,14089.635};
+			name="Shoprob_6_1_4_1";
+			text="Fush N Chups";
+			type="mil_box";
+			colorName="ColorBlue";
+			a=0.69999999;
+			b=0.69999999;
+			angle=-175.005;
 		};
 	};
 	class Sensors

@@ -31,7 +31,7 @@ INV_itemstocks =
 //Itemshop3  
 [1,1,1,1,1,1,1,1,3,1],
 //Itemshop4   
-[1,1,1,1,1,1,1,1,3,1,-1,-1,-1],
+[1,1,1,1,1,1,1,1,3,1],
 //Itemshop5    
 [1,1,1,1,1,1,1,1,3,1],
 //Itemshop6    
@@ -65,9 +65,9 @@ INV_itemstocks =
 [10,10,10,10,10,10,10,10,5,10,5,10,10,10,10,3,3,3],
     
 //equipmentshop1
-[50,20,20,20,50,30,10,10,50,20],
+[50,20,20,20,50,30,10,10,20],
 //equipmentshop2
-[50,20,20,20,50,30,10,10,50,20],
+[50,20,20,20,50,30,10,10,20],
 
 //tuneshop1
 [5,5,4,3,2,1],
@@ -85,7 +85,7 @@ INV_itemstocks =
 //carshop4        
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop5        
-[10,5,5],
+[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop6        
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop7        
@@ -149,9 +149,9 @@ INV_itemstocks =
 //Gang Area 6    
 -1,
 
-//??????
-[0,0,0],
- 
+//Drug Traff
+[0,0,0], 
+
 [0,0],
  
 [0],
@@ -160,12 +160,18 @@ INV_itemstocks =
  
 [0,0],
    
-[0],	
+[0],
+
+//Seed Shop
+[-1,-1,-1],
+
+//SeedShop//
+[-1,-1,-1],	
 
 //drugsell1
--1,-1,-1,
+[-1,-1,-1],
 //drugsell2
--1,-1,-1,-1,-1,
+[-1,-1,-1,-1,-1],
 //drugsell3
 -1,
 
@@ -229,7 +235,7 @@ INV_itemmaxstocks =
 //Itemshop3//
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop4//
-[100,100,200,100,100,100,100,100,100,100,-1,-1,-1],
+[100,100,200,100,100,100,100,100,100,100],
 //Itemshop5//
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop6//
@@ -263,9 +269,9 @@ INV_itemmaxstocks =
 [20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,10,10,10],
 
 //equipmentshop1//
-[100,400,400,400,100,60,200,100,100,500],
+[100,400,400,400,100,60,200,100,500],
 //equipmentshop2//
-[100,400,400,400,100,60,200,100,100,500],
+[100,400,400,400,100,60,200,100,500],
 
 //tuneshop1//
 [100,100,80,60,40,40],
@@ -283,7 +289,7 @@ INV_itemmaxstocks =
 //Carsshop4//
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop5//
-[200,100,100],
+[200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop6//
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop7//
@@ -359,6 +365,12 @@ INV_itemmaxstocks =
 
 [12],
 
+//SeedShop//
+[0,0,0],
+
+//SeedShop//
+[0,0,0],
+
 //DrugSell1//
 -1,-1,-1,
 //DrugSell2//
@@ -397,7 +409,7 @@ INV_itemmaxstocks =
 
 _emptyshop = [];
 _fs = ["Fuelline", "kanister", "kleinesreparaturkit", "reparaturkit", "chips"];
-_is = ["trout", "barramundi", "fisch", "blowfish", "mackerel", "herring", "bass", "Bread", "chips", "boar", "MarijuanaSeed", "HeroinSeed", "CocaineSeed"];
+_is = ["trout", "barramundi", "fisch", "blowfish", "mackerel", "herring", "bass", "Bread", "chips", "boar"];
 _gs = ["M9", "Rnd_9x19_M9", "Colt1911", "Rnd_45ACP_1911", "Saiga12K", "Rnd_B_Saiga12_74Slug"];
 _es = ["lockpick", "Binocular", "NVGoggles", "GPS", "Stone", "medikit", "fishingpole",  "handy", "lighter"];
 _cu = ["nitro", "supgrade1", "supgrade2", "supgrade3", "supgrade4", "supgrade5"];
@@ -676,11 +688,12 @@ INV_ItemShops = [
 [gangarea1,"Drug Trafficking",dummyobj,dummyobj,_db1,_emptyshop,true],
 [gangarea2,"Drug Trafficking",dummyobj,dummyobj,_db2,_emptyshop,true],
 [gangarea3,"Drug Trafficking",dummyobj,dummyobj,_db3,_emptyshop,true],	
-[gangarea4,"Drug Trafficking",dummyobj,dummyobj,_db3,_emptyshop,true],	
-[gangarea5,"Drug Trafficking",dummyobj,dummyobj,_db3,_emptyshop,true],	
+[gangarea4,"Drug Trafficking",dummyobj,dummyobj,_db1,_emptyshop,true],	
+[gangarea5,"Drug Trafficking",dummyobj,dummyobj,_db2,_emptyshop,true],	
 [gangarea6,"Drug Trafficking",dummyobj,dummyobj,_db3,_emptyshop,true],																										
 
 [drugbuy,"Buy Drugs",dummyobj,dummyobj,_db,_emptyshop,true],
+[drugbuy2,"Buy Drugs",dummyobj,dummyobj,_db,_emptyshop,true],
 
 [drugsell1,"Sell Cocaine",dummyobj,dummyobj,_emptyshop,_dsc,true],					
 [drugsell2,"Sell Marihuana",dummyobj,dummyobj,_emptyshop,_dsm,true],
