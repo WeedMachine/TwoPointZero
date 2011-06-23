@@ -75,7 +75,7 @@ _role addaction ["Elect a Chief","maindialogs.sqf",["chief"],1,false,true,"","pl
 //==================================== MAYOR ELECTION =================================================
 _role addaction ["Elect a Mayor","maindialogs.sqf",["wahlen"],1,false,true,"","player distance rathaus <= 3 and isciv"];
 //===================================== MAYOR ACTIONS =================================================
-_role addaction ["Change the Law","maindialogs.sqf",["gesetz"],1,false,true,"","player distance rathaus <= 3 and isMayor"];
+_role addaction ["Change the Law","maindialogs.sqf",["gesetz"],1,false,true,"","player distance rathaus <= 3 and isChief"];
 _role addaction ["Change taxes","maindialogs.sqf",["steuern"],1,false,true,"","player distance rathaus <= 3 and isMayor"];
 //===================================== CONVOY CASH ===================================================
 _role addaction ["Steal Police Payroll","noscript.sqf",'convoyhascash=false; publicvariable "convoyhascash"; _cash = (playersNumber west)*20000; ["geld", _cash] call INV_AddInventoryItem; player groupchat format["You stole $%1!", _cash];',1,false,true,"","_driver = driver convoytruck; player distance convoytruck <= 7 and convoyhascash and isciv and (!alive _driver or isnull _driver)"];
