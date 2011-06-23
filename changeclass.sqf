@@ -1,4 +1,4 @@
-private ["_type", "_ar", "_oldUnit", "_newUnit", "_dummyUnit", "_dummyGroup", "_fSelectWeapon"];
+private ["_type","_ar","_oldUnit","_newUnit","_dummyUnit","_dummyGroup","_fSelectWeapon","_oldtype"];
 
 _type = _this select 0;
 _oldtype = typeof player;
