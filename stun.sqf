@@ -1,5 +1,5 @@
 _art         = _this select 0;
-_stunbullets = [ "B_12Gauge_74Slug", "B_12Gauge_74Slug", "F_40mm_White", 1, "B_9x18_SD", "8Rnd_9x18_MakarovSD", "17Rnd_9x19_glock17"]; 
+_stunbullets = [ "B_12Gauge_74Slug", "B_12Gauge_74Slug", "F_40mm_White", 1, "B_9x18_SD", "8Rnd_9x18_MakarovSD"]; 
 
 if (_art == "fired") then 
 
@@ -60,7 +60,7 @@ if(player distance copbase1 < 90 and iscop and vehicle player == player) exitwit
 		
 	};
 
-if(player distance civspawn < 100 and _wep != "M1014" and _wep != "Makarov" and _wep != "glock17_EP1") exitwith																																																		
+if(player distance civspawn < 100 and _wep != "M1014" and _wep != "Makarov") exitwith																																																		
 			
 	{
 
