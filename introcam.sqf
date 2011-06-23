@@ -47,6 +47,22 @@ _camera camPrepareTarget [(getpos copbase1 select 0) - 200, (getpos copbase1 sel
 _camera camPrepareFOV 1.600;																							
 _camera camCommitPrepared 5;
 
+	if (count playerWeapons == 0 and count playermagazines == 0) then 
+
+		{
+
+		{player addMagazine _x} forEach CopStartGear_Mags;
+		{player addWeapon   _x} forEach CopStartGear_Weap;	
+	
+		} 
+		else 
+		{
+
+		{player addMagazine _x} forEach playermagazines;
+		{player addWeapon   _x} forEach playerWeapons;										
+
+		};
+
 }else{
 
 playMusic "Down_Under";
