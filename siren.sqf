@@ -6,7 +6,6 @@ _lichtstaerke = 0.3;
 _shortDur     = 7.60;
 _longDur      = 16.0;
 
-	_vcl animate ["Copcarlightsonly", 1]; //Holden Monaro Lights on when push F
 
 if (_art == "activate") then 
 {
@@ -114,6 +113,8 @@ if (_art == "licht") then
 	_vcl    = _this select 1;
 	_light1 = ((_this select 2) select 0);
 	_light2 = ((_this select 2) select 1);
+
+	_vcl animate ["Copcarlightsonly", 1]; //Holden Monaro Lights on when push F
 	
 	while {true} do
 	{
