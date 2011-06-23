@@ -20,6 +20,26 @@ Please refer to our website for the full list of credits<br/>
 Life Missions created by EddieV223, Pogoman, Issetea, Fewo, Jan Templar, Whippy<br/><br/>
 -CHANGELOG-----------------------------------------<br/><br/>
 <br/>
+Version 1.13d<br>
+Added: Workers to the workplace<br/>
+Disabled: Emergency Mobile<br/>
+Changed: Mobile phones are non dropable<br/>
+Changed: Suicide Penalty<br/>
+Fixed: Various Private variables<br/>
+Fixed: Multiple varible inconsitencies<br/>
+Added: Animations on Y key<br/>
+Removed: Refuel Can<br/>
+Changed: Speed limit ticket from exactly 100 to 104 +or- 2<br/>
+Fixed: Pressing F for lights and sirens now works locally<br/>
+Changed: Laws changable by police chief<br/>
+Fixed: Cops not spawning with loadout<br/>
+Fixed: Wheat Bug<br/>
+Changed: Added weight to mobile phones <br/>
+Fixed: Various bugs <br/>
+Added: Missing variables <br/>
+<br/>
+
+<br/>
 Version 1.13<br>
 Added: NZ Cop Cars<br/>
 Added: Emergency Mobile<br/>
