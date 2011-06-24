@@ -1,3 +1,6 @@
+//notes, if a shop is filled like so [-1,-1,-1], it can play havoc with the call scripts, instead just use -1,
+// if a shop is filled like so [-1,2,-1], then it is fine.
+
 
 //private ["_emptyshop","_fs","_is","_gs","_es","_cu","_bm","_ip,","_cs","_ps","_ts","_sc","_bs","_bt","_bc","_td","_ms","_os","_ws","_db","_db1","_db2","_db3","_dsc","_dsm","_dsl","_dsh","_Construction","_ca","_cv","_copshop","_copshop_patrol","_copshop_response","_copshop_sobr","_terrorshop_buy","_assassinshop_buy","_gangshop_buy"];
 if(isServer)then
@@ -8,119 +11,167 @@ INV_itemstocks =
 
 [
 //Fuelshop1
+//5 Items -confirmed
 [-1,1,10,10,5],
 //Fuelshop2
+//5 Items -confirmed
 [-1,1,10,10,5],
 //Fuelshop3
+//5 Items -confirmed
 [-1,1,10,10,5],
 //Fuelshop4
+//5 Items -confirmed
 [-1,1,10,10,5],
 //Fuelshop5
+//5 Items -confirmed
 [-1,1,10,10,5],
-//FuelShop7//
+//FuelShop7
+//5 Items -confirmed
 [-1,1,10,10,5],
-//FuelShop8//
+//FuelShop8
+//5 Items -confirmed
 [-1,10,10,10,5],
-//FuelShop9//
+//FuelShop9
+//5 Items -confirmed
 [-1,10,10,10,5],
-    
+
 //Itemshop1
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
 //Itemshop2
+//10 Items -confirmed 
 [1,1,1,1,1,1,1,1,3,1],
 //Itemshop3  
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop4   
+//Itemshop4
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop5    
+//Itemshop5
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop6    
+//Itemshop6
+//10 Items -confirmed    
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop7   
+//Itemshop7  
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
- //Itemshop8  
+//Itemshop8 
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
- //Itemshop9   
+ //Itemshop9
+//10 Items -confirmed   
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop10    
+//Itemshop10 
+//10 Items -confirmed 
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop11    
+//Itemshop11
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop12    
+//Itemshop12
+//10 Items -confirmed 
 [1,1,1,1,1,1,1,1,3,1],
- //Itemshop13   
+ //Itemshop13
+//10 Items -confirmed  
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop14    
+//Itemshop14
+//10 Items -confirmed 
 [1,1,1,1,1,1,1,1,3,1],
-//Itemshop15    
+//Itemshop15
+//10 Items -confirmed
 [1,1,1,1,1,1,1,1,3,1],
 
 //beer
 -1,
 
 //gunshop1
-[5,-1,5,-1,5,-1,5,-1],
+//8 items - Fixed too 6 items
+[5,-1,5,-1,5,-1],
     
 //Construction1
+//18 items -confirmed
 [10,10,10,10,10,10,10,10,5,10,5,10,10,10,10,3,3,3],
     
 //equipmentshop1
+// 9 items -confirmed
 [50,20,20,20,50,30,10,10,20],
 //equipmentshop2
+//9 items -confirmed
 [50,20,20,20,50,30,10,10,20],
 
 //tuneshop1
+//6 items -confirmed
 [5,5,4,3,2,1],
 //cartuningshop2
+//6 items -confirmed
 [5,5,4,3,2,1],
 //cartuningshop3 
+//6 items -confirmed
 [5,5,4,3,2,1],
 
-//carshop1    
+//carshop1 
+//23 items - confirmed  
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
-//carshop2        
+//carshop2 
+//23 items - confirmed      
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
-//carshop3        
+//carshop3  
+//23 items - confirmed       
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
-//carshop4        
+//carshop4 
+//23 items -confirmed         
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
-//carshop5        
+//carshop5  
+//23 items -confirmed        
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
-//carshop6        
+//carshop6    
+//23 items - confirmed     
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
-//carshop7        
+//carshop7    
+//23 items - confirmed     
 [10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 
 //sports cars        
+//10 items - confirmed 
 [10,10,10,10,10,10,10,10,10,10],
     
 //pickupshop1
-[2,2,2,2,2,2,3,4,4],
+//9 items -  Fixed too 8 items
+[2,2,2,2,2,2,3,4],
 //pickupshop2
-[2,2,2,2,2,2,3,4,4],
+//9 items -  Fixed too 8 items
+[2,2,2,2,2,2,3,4],
 
 //truckshop
+//6 items -  confirmed
 [3,3,3,3,3,3],
 //truckshop1
+//6 items -  confirmed
 [3,3,3,3,3,3],
 //truckshop2
+//6 items -  confirmed
 [3,3,3,3,3,3],
 
 //terrorshop
-[-1,-1,-1,-1,2,-1,1,-1,1,-1,1,1,1,1,-1,-1,1,-1,1,-1,-1,-1,10,10,1,1,1,1,-1,-1,-1,-1,3],
+// 33 items - confimred
+[-1,-1,-1,-1,2,-1,2,-1,4,-1,5,5,5,5,-1,-1,2,-1,1,-1,-1,-1,5,2,2,2,2,2,-1,-1,-1,-1],
 
 //boatshop1
+//5 items -  confirmed
 [8,8,8,8,8],
 //boatshop2
+//5 items -  confirmed
 [8,8,8,8,8],
 //boatshop3
+//5 items -  confirmed
 [8,8,8,8,8],
 //boatshop4
+//5 items -  confirmed
 [8,8,8,8,8],
 
 
 //terrorboatshop
-[-1,-1,-1,-1],
+-1,
 
 //copboatshop
 -1,
@@ -128,6 +179,7 @@ INV_itemstocks =
 -1,
 
 //terrordoctor
+//2 items - confirmed 
 [15,15],
 
 //miningequipment
@@ -150,32 +202,34 @@ INV_itemstocks =
 -1,
 
 //Drug Traff
+//3 items -confirmed  
 [0,0,0], 
-
+//2 items - confirmed 
 [0,0],
- 
+//1 items -  confirmed
 [0],
-   
-[0,0,0],
- 
+  
+//3 items - confirmed 
+[0,0,0], 
+//2 items - confirmed 
 [0,0],
-   
+//1 items -  confirmed
 [0],
 
 //Seed Shop
-[-1,-1,-1],
+-1,
 
 //SeedShop//
-[-1,-1,-1],	
+-1,	
 
 //drugsell1
-[-1,-1,-1],
+-1,
 //drugsell2
-[-1,-1,-1,-1,-1],
+-1
 //drugsell3
 -1,
 
-//????
+//???? What the hell is this for....
 -1,
 
 //copair
@@ -192,13 +246,14 @@ INV_itemstocks =
 -1,
   
 //terrorshop1
+//33 items -confirmed
 [-1,-1,-1,-1,2,-1,2,-1,4,-1,5,5,5,5,-1,-1,2,-1,1,-1,-1,-1,5,2,2,2,2,2,-1,-1,-1,-1],
 
 //bm
-[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+-1,
 
 //illegal pistols
-[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+-1
 
 
 ];
@@ -263,7 +318,8 @@ INV_itemmaxstocks =
 -1,
 
 //GunShop1//
-[20,-1,20,-1,20,-1,20,-1],
+//8 items - Fixed too 6 items
+[20,-1,20,-1,20,-1],
 
 //Constrution1//
 [20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,10,10,10],
@@ -299,9 +355,11 @@ INV_itemmaxstocks =
 [50,50,50,50,50,50,50,50,50,50],
 
 //PickupShop1//
-[50,50,100,100,100,100,100,100,100],
+//9 items -  Fixed too 8 items
+[50,50,100,100,100,100,100,100],
 //PickupShop2//
-[50,50,100,100,100,100,100,100,100],
+//9 items -  Fixed too 8 items
+[50,50,100,100,100,100,100,100],
 
 //TruckShop//
 [60,60,60,60,60,60],
@@ -378,7 +436,7 @@ INV_itemmaxstocks =
 //DrugSell3//
 -1,
 
-//CopSOBR//
+//???????//
 -1,
 //CopAir//
 -1,
@@ -390,7 +448,7 @@ INV_itemmaxstocks =
 -1,
 //CopCriminal//
 -1,
-//??????//
+//SOBR//
 -1,
 
 //terrorshop1//
@@ -407,36 +465,127 @@ INV_itemmaxstocks =
 // Shop items
 
 _emptyshop = [];
+
+//FuelShop
+//5 Items
 _fs = ["Fuelline", "kanister", "kleinesreparaturkit", "reparaturkit", "chips"];
+
+//FushnChups
+//10 Items
 _is = ["trout", "barramundi", "fisch", "blowfish", "mackerel", "herring", "bass", "Bread", "chips", "boar"];
+
+//GunShop
+//6 Items
 _gs = ["M9", "Rnd_9x19_M9", "Colt1911", "Rnd_45ACP_1911", "Saiga12K", "Rnd_B_Saiga12_74Slug"];
+
+//EquipmentShop
+//9 Items
 _es = ["lockpick", "Binocular", "NVGoggles", "GPS", "Stone", "medikit", "fishingpole",  "handy", "lighter"];
+
+//cartuningshop
+//6 Items
 _cu = ["nitro", "supgrade1", "supgrade2", "supgrade3", "supgrade4", "supgrade5"];
+
+//CarShop
+//23 Items
 _cs = ["MMT_Civ","TT650_Civ","TT650_Ins","Tractor","oltruc3","Skoda","CL_bmw323_blue","SkodaBlue","SkodaRed","SkodaGreen","civic","Lada_base","Lada1","Lada2","VWGolf","Ikarus","Civcar","Civcarbl","Civcarbu","Civcarge","Civcarre","Civcarsl","Civcarwh"]; 
+
+//sportscarShop
+//10 Items
 _sc = ["roadrunner2","challenger","barcuda","cuda","cd71hm","qin_evoix_black","qin_evoix_blue","qin_evoix_orange","qin_evoix_red","monaco"];
+
+//pickupShop
+//8 Items
 _ps = ["datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", "hilux1_civil_1_open", "hilux1_civil_2_covered", "SUV_TK_CIV_EP1", "LandRover_TK_CIV_EP1", "LandRover_CZ_EP1"];
+
+//truckShop
+//6 Items
 _ts = ["UralCivil", "UralCivil2", "V3S_Civ", "oldtruc2a", "oldtruc2", "mackr"];
+
+//boatShop
+//5 Items
 _bs = ["PBX", "Zodiac", "Fishing_Boat", "Smallboat_1", "Smallboat_2"];
+
+//TerrorboatShop
+//4 Items
 _bt = ["PBX", "Zodiac", "Fishing_Boat", "GNTFSF"];
+
+//copboatsShop
+//1 Items
 _bc = ["RHIB"];
+
+//Terror doctor
+//2 Items
 _td = ["strangemeat", "medikit"];
+
+//miningShop
+//3 Items
 _ms = ["Shovel","Pickaxe","JackHammer"];
+
+//oilShop
+//1 Items
 _os = ["OilBarrel"];
+
+//WhaleShop
+//1 Items
 _ws = ["Whale"];
+
+//drugs1
+//3 Items
 _db = ["MarijuanaSeed","HeroinSeed","CocaineSeed"];
+
+//drugs2
+//3 Items
 _db1 = ["marijuana","cocaine","lsd"];
+
+//drugs3
+//2 Items
 _db2 = ["cocaine","lsd"];
+
+//drugs4
+//1 Items
 _db3 = ["heroin"];
+
+//drugs5
+//3 Items
 _dsc = ["cocaine", "lsd", "DirtyMoney"];
+
+//drugs6
+//5 Items
 _dsm = ["marijuana", "heroin", "MarijuanaSeed", "HeroinSeed", "DirtyMoney"];
+
+//drugs7
+//1 Items
 _dsl = ["lsd"];
+
+//drugs8
+//1 Items
 _dsh = ["heroin"];
+
+//Beer
+//7 Items
 _ACl = ["beer","beer2","vodka","smirnoff","wiskey","wine","wine2"];
+
+//Blackmarket
+//16 Items
 _bm = ["Binocular", "GPS", "chips", "NVGoggles", "Colt1911", "PipeBomb", "Rnd_45ACP_1911", "SVD_CAMO", "10Rnd_762x54_SVD", "MP5A5", "30Rnd_9x19_MP5", "medikit", "kleinesreparaturkit", "reparaturkit", "vodka", "lockpick"];
+
+//illegalpistols
+//14 Items
 _ip = ["revolver_EP1", "Rnd_45ACP", "Sa61_EP1", "Rnd_B_765x17_Ball", "UZI_EP1", "Rnd_9x19_UZI", "LeeEnfield", "x_303", "FN_FAL", "20Rnd_762x51_FNFAL", "UZI_SD_EP1", "Rnd_9x19_UZI_SD", "revolver_gold_EP1", "Rnd_45ACP"];
+
+//constructionshop
+//18 Items
 _Construction   = ["Sign_Danger", "Land_Wall_Gate_Ind1_L","Land_Wall_CBrk_5_D", "RoadCone", "Land_Campfire", "Pile_of_wood", "RoadBarrier_long", "Land_Wall_CGry_5_D", "Land_Barn_Metal", "bunkersmall", "bigbagfenceRound", "bigbagfence", "BigbagfenceCorner", "factory", "officebuilding", "barrack", "smallhouse", "smallhouse2"];
+
+//copairShop
+//2 Items
 _ca = ["Mi17_medevac_CDF", "MH60S"];
+
+//copcarsShop
+//13 Items
 _cv = ["MMT_USMC","M1030", "LadaLM", "hilux1_civil_3_open", "Kamaz", "HMMWV", "Copcar", "Copcarhw", "Copcarhw2", "Copcaraus", "Copcarausgreen", "CopcarNZ", "rosco"];
+
 
 _copshop        = 
 
