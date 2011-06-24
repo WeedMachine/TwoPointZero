@@ -14,7 +14,7 @@ ANIM_AllAnimationArray = [
 	["AmovPercMstpSnonWnonDnon_idle71kliky", "Pushups", "anim", "Pushups", 2, ""],
 	["amovpercmstpsraswrfldnon_gear", "Check gear", "anim", "Check gear", 2, ""],
 	["AidlPpneMstpSnonWnonDnon_SleepC_killFly", "Shew fly", "anim", "Shew fly", 2, ""],
-	["Crew", "shit", "special", localize "STRS_anim_var_shit",2, "shitAnimationExec.sqf"],
+	["AmovPsitMstpSlowWrflDnon_Smoking", "shit", "special", localize "STRS_anim_var_shit",2, "shitAnimationExec.sqf"],
 	["AinvPknlMstpSlayWrflDnon_AmovPknlMstpSrasWrflDnon", "kopfweh", "anim", localize "STRS_anim_var_headache",	2, ""],
 	["AmovPercMstpSnonWnonDnon_talking", "reden", "anim", localize "STRS_anim_var_conversation", 2,	""],						
 	["AmovPercMstpSnonWnonDnon_Ease", "ease", "anim", localize "STRS_anim_var_atease", 2, ""],
