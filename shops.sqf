@@ -1,5 +1,6 @@
 //notes, if a shop is filled like so [-1,-1,-1], it can play havoc with the call scripts, instead just use -1,
 // if a shop is filled like so [-1,2,-1], then it is fine.
+//still and issue somewhere, unsure thought, seems that the error message now appears alot later
 
 
 //private ["_emptyshop","_fs","_is","_gs","_es","_cu","_bm","_ip,","_cs","_ps","_ts","_sc","_bs","_bt","_bc","_td","_ms","_os","_ws","_db","_db1","_db2","_db3","_dsc","_dsm","_dsl","_dsh","_Construction","_ca","_cv","_copshop","_copshop_patrol","_copshop_response","_copshop_sobr","_terrorshop_buy","_assassinshop_buy","_gangshop_buy"];
@@ -267,74 +268,74 @@ INV_itemmaxstocks =
 [
 
 //FuelShop1//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop2//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop3//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop4//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop5//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop7//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop8//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 //FuelShop9//
-// 5 items -
+// 5 items -confirmed
 [-1,10,20,20,10],
 
 //Itemshop1//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop2//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop3//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop4//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop5//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop6//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop7//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop8//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop9//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop10//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop11//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop12//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop13//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop14//
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 //Itemshop15
-// 10 items -
+// 10 items -confirmed
 [100,100,200,100,100,100,100,100,100,100],
 
 //Beer//
@@ -345,50 +346,50 @@ INV_itemmaxstocks =
 [20,-1,20,-1,20,-1],
 
 //Constrution1//
-// 18 items -
+// 18 items -confirmed
 [20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,10,10,10],
 
 //equipmentshop1//
-// 9 items -
+// 9 items -confirmed
 [100,400,400,400,100,60,200,100,500],
 //equipmentshop2//
-// 9 items -
+// 9 items -confirmed
 [100,400,400,400,100,60,200,100,500],
 
 //tuneshop1//
-// 6 items -
+// 6 items -confirmed
 [100,100,80,60,40,40],
 //tuneshop2//
-// 6 items -
+// 6 items -confirmed
 [100,100,80,60,40,40],
 //tuneshop3//
-// 6 items -
+// 6 items -confirmed
 [100,100,80,60,40,40],
 
 //Carsshop1//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop2//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop3//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop4//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop5//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop6//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 //Carsshop7//
-// 23 items -
+// 23 items -confirmed
 [200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,60,60,60,60],
 
 //Sports Cars//
-// 10 items -
+// 10 items -confirmed
 [50,50,50,50,50,50,50,50,50,50],
 
 //PickupShop1//
@@ -399,25 +400,30 @@ INV_itemmaxstocks =
 [50,50,100,100,100,100,100,100],
 
 //TruckShop//
-// 6 items -
+// 6 items -confirmed
 [60,60,60,60,60,60],
 //TruckShop1//
-// 6 items -
+// 6 items -confirmed
 [60,60,60,60,60,60],
 //TruckShop2//
-// 6 items -
+// 6 items -confirmed
 [60,60,60,60,60,60],
 
 //terrorshop//
+// 33 items -confirmed
 [-1,-1,-1,-1,8,-1,5,-1,9,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1,3],
 
 //BoatShop1//
+// 5 items -confirmed
 [16,16,16,16,16],
 //BoatShop2//
+// 5 items -confirmed
 [16,16,16,16,16],
 //BoatShop3//
+// 5 items -confirmed
 [16,16,16,16,16],
 //BoatShop4//
+// 5 items -confirmed
 [16,16,16,16,16],
 
 //TerrorBoat//
@@ -429,6 +435,7 @@ INV_itemmaxstocks =
 -1,
 
 //TerrorDoctor//
+// 2 items -confirmed
 [30,30],
 
 //miningequipment//
@@ -451,25 +458,29 @@ INV_itemmaxstocks =
 -1,
 
 //????//
+// 3 items -confirmed
 [12,8,6],
-
+// 2 items -confirmed
 [10,8],
-
+// 1 items -confirmed
 [12],
 
+// 3 items -confirmed
 [12,8,6],
-
+// 2 items -confirmed
 [10,8],
-
+// 1 items -confirmed
 [12],
 
 //SeedShop//
+// 3 items -confirmed
 [0,0,0],
 
 //SeedShop//
+// 3 items -confirmed
 [0,0,0],
 
-//DrugSell1 - found the epic issue right here!!!!!//
+//DrugSell1 - found an epic issue right here!!!!!//
 -1,
 //DrugSell2//
 -1,
@@ -492,13 +503,15 @@ INV_itemmaxstocks =
 -1,
 
 //terrorshop1//
-[-1,-1,-1,-1,5,-1,5,-1,8,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1],
+// 33 items -confirmed
+[-1,-1,-1,-1,8,-1,5,-1,9,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1,3],
 
 //bm
+// 16 items -confirmed
 [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
 
 //illegal pistols
--1,
+-1
 
 ];
 
