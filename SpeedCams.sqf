@@ -10,7 +10,7 @@ _type   = typeof _car;
 
 	{
 
-	if ((player == driver _car) and (_car distance _x < 30) and (_speed >= 100) and !(_car iskindof "Air")) then 
+	if ((player == driver _car) and (_car distance _x < 30) and (_speed >= 105) and !(_car iskindof "Air")) then 
 
 		{ 
 
@@ -19,7 +19,7 @@ _type   = typeof _car;
 
 		titleCut [" ","white in",1];
 
-		if(_speed >= 105  and _speed < 110) then {_penalty = 1};
+		if(_speed >= 104 and _speed < 110) then {_penalty = 1};
 		if(_speed >= 110 and _speed < 130) then {_penalty = 2};
 		if(_speed >= 130 and _speed < 150) then {_penalty = 3};
 		if(_speed >= 150 and _speed < 170) then {_penalty = 4};
