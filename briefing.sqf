@@ -20,6 +20,18 @@ Please refer to our website for the full list of credits<br/>
 Life Missions created by EddieV223, Pogoman, Issetea, Fewo, Jan Templar, Whippy<br/><br/>
 -CHANGELOG-----------------------------------------<br/><br/>
 <br/>
+
+<br/>
+Version 1.13e<br>
+Added: New Animations<br/>
+Fixed: Keys Exploit<br/>
+Fixed: Stock Missmatches<br/>
+Changed: Stringtable format<br/>
+Fixed: Drugsell bug<br/>
+<br/>
+
+
+<br/>
 Version 1.13d<br>
 Added: Workers to the workplace<br/>
 Disabled: Emergency Mobile<br/>
