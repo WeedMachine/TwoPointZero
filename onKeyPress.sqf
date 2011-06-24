@@ -23,9 +23,9 @@ switch _key do
 	//y key
 	case 21:
 	{
-	if(dialog)exitwith{closeDialog 0;};		
+	if(dialog)exitwith{closeDialog 0;};
+	if(local_arrest == 1)exitwith{};
 	if(!INV_shortcuts)exitwith{};
-	_handled=true;
 	[] execVM "animdlgopen.sqf";
 		
 	};
