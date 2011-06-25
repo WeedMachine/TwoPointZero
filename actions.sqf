@@ -174,19 +174,19 @@ _role addaction ["Ortego Merchant","shopdialogs.sqf",[18],1,false,true,"","playe
 //_role addaction ["Balota Merchant","shopdialogs.sqf",[_num3],1,false,true,"","player distance shop3export <= 3"];
 //_role addaction ["Kamyshovo Merchant","shopdialogs.sqf",[_num4],1,false,true,"","player distance shop4export <= 3"];
 //======================================= GANG GUNSHOPS ==================================================
-_num1  = (gangarea1 call INV_getshopnum)-3;
-_num2  = (gangarea2 call INV_getshopnum)-3;
-_num3  = (gangarea3 call INV_getshopnum)-3;
-_role addaction ["Gang Shop","shopdialogs.sqf",[_num1],1,false,true,"","_control = gangarea1 getvariable ""control"";!isnil ""_control"" and player distance gangarea1 <= 5 and (_control == (call INV_mygang))"];
-_role addaction ["Gang Shop","shopdialogs.sqf",[_num2],1,false,true,"","_control = gangarea2 getvariable ""control"";!isnil ""_control"" and player distance gangarea2 <= 5 and (_control == (call INV_mygang))"];
-_role addaction ["Gang Shop","shopdialogs.sqf",[_num3],1,false,true,"","_control = gangarea3 getvariable ""control"";!isnil ""_control"" and player distance gangarea3 <= 5 and (_control == (call INV_mygang))"];
+//_num1  = (gangarea1 call INV_getshopnum)-3;
+//_num2  = (gangarea2 call INV_getshopnum)-3;
+//_num3  = (gangarea3 call INV_getshopnum)-3;
+//_role addaction ["Gang Shop","shopdialogs.sqf",[_num1],1,false,true,"","_control = gangarea1 getvariable ""control"";!isnil ""_control"" and player distance gangarea1 <= 5 and (_control == (call INV_mygang))"];
+//_role addaction ["Gang Shop","shopdialogs.sqf",[_num2],1,false,true,"","_control = gangarea2 getvariable ""control"";!isnil ""_control"" and player distance gangarea2 <= 5 and (_control == (call INV_mygang))"];
+//_role addaction ["Gang Shop","shopdialogs.sqf",[_num3],1,false,true,"","_control = gangarea3 getvariable ""control"";!isnil ""_control"" and player distance gangarea3 <= 5 and (_control == (call INV_mygang))"];
 //====================================== DRUG TRAFFICKING ===============================================
-_num1  = (gangarea1 call INV_getshopnum);
-_num2  = (gangarea2 call INV_getshopnum);
-_num3  = (gangarea3 call INV_getshopnum);
-_role addaction ["Drug Trafficking","shopdialogs.sqf",[_num1],1,false,true,"","_control = gangarea1 getvariable ""control"";!isnil ""_control"" and player distance gangarea1 <= 5 and isciv"];
-_role addaction ["Drug Trafficking","shopdialogs.sqf",[_num2],1,false,true,"","_control = gangarea2 getvariable ""control"";!isnil ""_control"" and player distance gangarea2 <= 5 and isciv"];
-_role addaction ["Drug Trafficking","shopdialogs.sqf",[_num3],1,false,true,"","_control = gangarea3 getvariable ""control"";!isnil ""_control"" and player distance gangarea3 <= 5 and isciv"];
+//_num1  = (gangarea1 call INV_getshopnum);
+//_num2  = (gangarea2 call INV_getshopnum);
+//_num3  = (gangarea3 call INV_getshopnum);
+//_role addaction ["Drug Trafficking","shopdialogs.sqf",[_num1],1,false,true,"","_control = gangarea1 getvariable ""control"";!isnil ""_control"" and player distance gangarea1 <= 5 and isciv"];
+//_role addaction ["Drug Trafficking","shopdialogs.sqf",[_num2],1,false,true,"","_control = gangarea2 getvariable ""control"";!isnil ""_control"" and player distance gangarea2 <= 5 and isciv"];
+//_role addaction ["Drug Trafficking","shopdialogs.sqf",[_num3],1,false,true,"","_control = gangarea3 getvariable ""control"";!isnil ""_control"" and player distance gangarea3 <= 5 and isciv"];
 
 //====================================== RED LIGHT ======================================================
 _role addaction [format ["Hire escort ($%1)", escort_cost],"escort.sqf", ["escort"],1,false,true,"","player distance redlight1 <= 5 and isciv"];
