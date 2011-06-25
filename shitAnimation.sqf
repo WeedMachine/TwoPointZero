@@ -3,12 +3,7 @@
 _obj = _this select 0;
 _obj switchMove "miles_c0briefing_odpovedel_loop6";
 _pos = getpos _obj;
-_triggerSoundFire = createTrigger [ "EmptyDetector", _pos ];
-_triggerSoundFire setTriggerActivation [ "None", "PRESENT", true ];
-_triggerSoundFire setTriggerType "NONE";
-_triggerSoundFire setTriggerArea [ 10, 10, 0, false ];
-_triggerSoundFire setTriggerStatements [ "true", "", "" ];
-_triggerSoundFire setSoundEffect [ "FIRE", "", "", "FIRE" ];
+_obj say ["FIRE",5];
 
 _PS1 = "#particlesource" createVehicleLocal _pos;
 _PS1 setParticleCircle [0, [0, 0, 0]];
