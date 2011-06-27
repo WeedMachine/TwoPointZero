@@ -85,9 +85,9 @@ internDebug    	= false;
 debug          	= false;
 addonversion   	= true;
 dedicatedServer = false;
-copscount      	= 10;
-civscount      	= 20;
-playercount    	= 30;
+copscount      	= 15;
+civscount      	= 30;
+playercount    	= 45;
 debugarray     	= [];
 StartMoney     	= 25000;
 nopop	   	= true;	
@@ -114,7 +114,7 @@ _h = [] execVM "playerarrays.sqf";
 
 waitUntil{scriptDone  _h};
 
-_h = [30, rolenumber] execVM "initfuncs.sqf";
+_h = [45, rolenumber] execVM "initfuncs.sqf";
 
 waitUntil{scriptDone  _h};
 
