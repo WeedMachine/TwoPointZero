@@ -346,15 +346,19 @@ INV_ItemShops = [
 [shop13,"Item Shop",dummyobj,dummyobj,_is,_is,true],
 [shop14,"Item Shop",dummyobj,dummyobj,_is,_is,true],
 [shop15,"Item Shop",dummyobj,dummyobj,_is,_is,true],
+
 [shop16,"Beer Shop",dummyobj,dummyobj,_acl,_acl,true],
+
 [fuelshop1,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop2,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop3,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop4,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop5,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
+[fuelshop6,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop7,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop8,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
 [fuelshop9,"Fuel-station Shop",dummyobj,dummyobj,_fs,_fs,true],
+
 [cboatshop,"Boat Shop",dummyobj,cboatspawn,_bc,_bc,true],
 [cboatshop1,"Boat Shop",dummyobj,cboatspawn1,_bc,_bc,true],
 [copair,"Police Air-Vehicle Shop",dummyobj, cairspawn,_ca,_ca,true],
@@ -363,6 +367,7 @@ INV_ItemShops = [
 [coppatrol,"Patrol-Officer",coppatrol,dummyobj,_copshop_patrol,_copshop_patrol,true],
 [copcriminal,"Criminal Response-Officer",copcriminal,dummyobj,_copshop_response,_copshop_response,true],
 [copswat,"SOBR",copswat,dummyobj,_copshop_sobr,_copshop_sobr,true],
+
 [carshop1,"Car Shop",dummyobj,carspawn1,_cs,_cs,true],
 [carshop2,"Car Shop",dummyobj,carspawn2,_cs,_cs,true],
 [carshop3,"Car Shop",dummyobj,carspawn3,_cs,_cs,true],
@@ -370,33 +375,47 @@ INV_ItemShops = [
 [carshop5,"Car Shop",dummyobj,carspawn5,_cs,_cs,true],
 [carshop6,"Car Shop",dummyobj,carspawn6,_cs,_cs,true],
 [carshop7,"Car Shop",dummyobj,carspawn7,_cs,_cs,true],
+
 [boatshop1, "Boat Shop",dummyobj,boatspawn1,_bs,_bs,true],
 [boatshop2, "Boat Shop",dummyobj,boatspawn2,_bs,_bs,true],
 [boatshop3, "Boat Shop",dummyobj,boatspawn3,_bs,_bs,true],
 [boatshop4, "Boat Shop",dummyobj,boatspawn4,_bs,_bs,true],
+[
 [truckshop,"Truck Shop",dummyobj,truckspawn,_ts,_ts,true],
 [truckshop1,"Truck Shop",dummyobj,truckspawn1,_ts,_ts,true],
 [truckshop2,"Truck Shop",dummyobj,truckspawn2,_ts,_ts,true],
+
 [tuning1,"Car Upgrades",dummyobj,dummyobj,_cu,_cu,true],
 [tuning2,"Car Upgrades",dummyobj,dummyobj,_cu,_cu,true],
 [tuning3,"Car Upgrades",dummyobj,dummyobj,_cu,_cu,true],
+
 [terrorshop2,"Terror Shop",tgunbox2,dummyobj,_terrorshop_buy,_terrorshop_buy,true],
 [tboatshop1,"Boat Shop",dummyobj,tboatspawn1,_bt,_bt,false],
 [tdoc,"Doctor",dummyobj,dummyobj,_td,_td,false],
+
 [drugsell1,"Sell Cocaine",dummyobj,dummyobj,_emptyshop,_dsc,true],
 [drugsell2,"Sell Marihuana",dummyobj,dummyobj,_emptyshop,_dsm,true],
 [drugsell3,"Sell LSD",dummyobj,dummyobj,_emptyshop,_dsl,true],
 [drugbuy,"Seed Shop",dummyobj,dummyobj,_db,_emptyshop,true],
 [drugbuy2,"Seed Shop",dummyobj,dummyobj,_db,_emptyshop,true],
+
 [pickupshop1,"Pickup + Jeep Shop",dummyobj,pickupspawn1,_ps,_ps,true],
 [pickupshop2,"Pickup + Jeep Shop",dummyobj,pickupspawn2,_ps,_ps,true],
+
 [Oil_1,"Mining equipment",dummyobj,dummyobj,_ms,_ms,true],
 [OilSell1,"Oil Dealer", dummyobj,dummyobj, _emptyshop,_os,true],
+
 [blackmar,"Black Market",blackbox,dummyobj,_bm,_bm,false],
+
 [ipistols,"Weapons",blackbox1,dummyobj,_ip,_ip,true],
+
 [equipshop,"Equipment Shop",equipbox,dummyobj,_es,_es,true],
 [equipshop1,"Equipment Shop",equipbox1,dummyobj,_es,_es,true],
+
 [scars,"Car Shop",dummyobj,scarsspawn,_sc,_sc,true],
+
 [gunshop1,"Gun Shop",gunbox1,dummyobj,_gs,_gs,true],
+
 [Construction1,"Building Resources",dummyobj,dummyobj, _Construction,_Construction,true],
+
 [whalesell,"Sell Whale",dummyobj,dummyobj,_emptyshop,_ws,true]];
