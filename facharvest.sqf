@@ -160,15 +160,17 @@ _gunfac=
 "Rnd_9x19_M9",
 "Colt1911", 
 "Rnd_45ACP_1911",
-"Saiga12K", 
+"Saiga12K",
+"AKS74pso",
+"30Rnd_545x39_AK", 
 "Rnd_B_Saiga12_74Slug"
 
 ];
 
 _confac = [ "Sign_Danger", "Land_Wall_Gate_Ind1_L", "Land_Wall_CBrk_5_D",  "RoadCone", "Land_Campfire", "Pile_of_wood", "RoadBarrier_long", "Land_Barn_Metal", "bunkersmall", "bigbagfenceRound", "bigbagfence", "BigbagfenceCorner", "factory", "officebuilding", "barrack", "smallhouse", "smallhouse2"];
-_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","qantas_C130","CSJ_Spitfire"];
-_tairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","usec_bell206","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
-_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","airnz_C130","CSJ_Spitfire"];
+_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206_2","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","qantas_C130","CSJ_Spitfire"];
+_tairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","usec_bell206_2","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
+_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206_2","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","airnz_C130","CSJ_Spitfire"];
 
 vehiclequeue  	= [];
 tvehiclequeue 	= [];
@@ -184,7 +186,7 @@ INV_ItemFabriken =
 
 [
 
-[Vehiclefactory,"factory1","Vehicle Factory",dummyobj,vfacspawn,_vehiclefactory,50000,"Fabrikablage1", "vehiclequeue"],
+[Vehiclefactory,"factory1","Vehicle Factory",dummyobj,vfacspawn,_vehiclefactory,25000,"Fabrikablage1", "vehiclequeue"],
 [airshop,"factory2","AirFactory",dummyobj,airspawn,_airfactory,100000,"Fabrikablage2", "avehiclequeue"],
 [ItemFabrik_1,"factory3","General Factory",igunbox,dummyobj,_itemfactory,50000,"Fabrikablage3", "itemqueue"],
 [terrorshop2,"factory4","Weapon Factory",tgunbox2,dummyobj,_weaponfactory,80000,"Fabrikablage4", "weaponqueue"],

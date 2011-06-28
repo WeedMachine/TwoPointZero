@@ -139,6 +139,7 @@ STRS_airtaxi_mercalillo_inuse," ""The Airtaxi to Mercalillo is already in use","
 STRS_airtaxi_pita_inuse," ""The Airtaxi to Pita is already in use"," please try it again in 10 minutes""",,,,
 STRS_airtaxi_paraiso_inuse," ""The Airtaxi to Paraiso is already in use"," please try it again in 10 minutes""",,,,
 STRS_airtaxi_rahmadi_inuse," ""The Airtaxi to Rahmadi is already in use"," please try it again in 10 minutes""",,,,
+STRM_mission_marker_airshop,Air Shop,,,,,
 STRS_airtaxi_corazol_inuse," ""The Airtaxi to Corazol is already in use"," please try it again in 10 minutes""",,,,
 ,,,,,,
 STRS_airtaxi_bagango_killed," ""Someone either killed the Pilot from the Airtaxi to Bagango"," or heavily damaged the Helicopter!""",,,,

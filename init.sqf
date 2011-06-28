@@ -103,9 +103,6 @@ if(local server)then{execVM "targets.sqf";};
 
 waitUntil { ( (time > 1) and ((alive player) or (local server)) ) };
 
-if (!(createDialog "rulesdialog")) exitWith {hint "Dialog Error!";};
-ctrlSetText[1, localize "STRS_maincivrules"];
-
 _h = [] execVM "briefing.sqf";
 
 waitUntil{scriptDone  _h};

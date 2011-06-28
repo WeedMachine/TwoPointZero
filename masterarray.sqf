@@ -141,7 +141,7 @@ INV_AlleFahrzeugeArray = [
 ["AH6X_EP1",["Fahrzeug", "Air"],["AH6X_EP1", "Little Bird"],[1600000, 1400000], [5, "air", "air_support_training", 300], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 ["Mi17_Civilian",["Fahrzeug", "air"],["Mi17_Civilian", "Mi-17-Civil"],[2000000, 1800000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 ["MH6J_EP1",["Fahrzeug", "Air"],["MH6J_EP1", "6 Seat Little Bird"],[1800000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
-["USEC_Bell206_2",["Fahrzeug", "Air"],["USEC_Bell206_2", "USEC Bell Dragon Fly"],[1700000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "USEC_Bell206_2", "USEC_Bell206_2", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["usec_bell206_2",["Fahrzeug", "Air"],["usec_bell206_2", "USEC Bell Dragon Fly"],[1700000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 
 ////////////////////////////////////////////////////////////Planes///////////////////////////////////////////////////////////////
 

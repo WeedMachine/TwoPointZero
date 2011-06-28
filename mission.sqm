@@ -117,7 +117,7 @@ class Mission
 	randomSeed=10513215;
 	class Intel
 	{
-		briefingName="Down Under Current V1.14";
+		briefingName="Down Under Current V1.14b";
 		briefingDescription="By The DownUnder Community";
 		resistanceWest=0;
 		startWeather=0.011344254;
@@ -131,7 +131,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=246;
+		items=248;
 		class Item0
 		{
 			side="LOGIC";
@@ -1046,7 +1046,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9743.6846,139.995,10019.094};
+					position[]={9731.6045,139.995,10019.472};
 					azimut=-89.975471;
 					id=61;
 					side="LOGIC";
@@ -1125,8 +1125,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={11765.835,29.649588,5869.5835};
-					azimut=0.1214537;
+					position[]={11508.891,26.290119,6300.2295};
+					azimut=-105.64567;
 					id=65;
 					side="CIV";
 					vehicle="Functionary2";
@@ -1603,8 +1603,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={11777.767,22.636326,5877.708};
-					azimut=544.52057;
+					position[]={11502.486,26.610043,6303.7236};
+					azimut=629.80768;
 					id=130;
 					side="LOGIC";
 					vehicle="Logic";
@@ -5016,6 +5016,45 @@ class Mission
 					skill=0.60000002;
 					text="blackmar";
 					init="call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";"";  this disableAI ""move""; this disableAI ""anim""; this allowdamage true; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01]; this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 0.6];";
+				};
+			};
+		};
+		class Item246
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9742.9297,139.995,10019.283};
+					azimut=-89.975502;
+					id=2604;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="asairspawn";
+				};
+			};
+		};
+		class Item247
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9732.6582,139.995,9974.3438};
+					azimut=6.9750023;
+					id=2605;
+					side="CIV";
+					vehicle="Pilot";
+					leader=1;
+					skill=0.60000002;
+					text="airshop1";
+					init=" call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";"";this disableAI ""move""; this disableAI ""anim""; this allowdamage false; ";
 				};
 			};
 		};
@@ -25764,7 +25803,7 @@ class Mission
 		};
 		class Item2035
 		{
-			position[]={11766.799,22.637148,5879.1543};
+			position[]={11763.683,22.562353,5878.1157};
 			azimut=546.74908;
 			id=2252;
 			side="EMPTY";
@@ -28948,7 +28987,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=290;
+		items=291;
 		class Item0
 		{
 			position[]={11506.658,35.676338,6369.1094};
@@ -29262,7 +29301,7 @@ class Mission
 		};
 		class Item31
 		{
-			position[]={11765.754,22.659281,5879.7183};
+			position[]={11502.077,26.631878,6305.6201};
 			name="heavyweaponshop_1_1";
 			text="@STRM_mission_marker_fac_vehicle";
 			type="mil_flag";
@@ -29437,7 +29476,7 @@ class Mission
 			colorName="ColorBlue";
 			a=0.69999999;
 			b=0.69999999;
-			angle=-70.976173;
+			angle=-0.84283638;
 		};
 		class Item56
 		{
@@ -29644,7 +29683,7 @@ class Mission
 		};
 		class Item77
 		{
-			position[]={11501.689,26.649094,6303.2407};
+			position[]={11502.479,26.608673,6301.6616};
 			name="carshop_1";
 			text="DU Car's";
 			type="mil_flag";
@@ -31593,6 +31632,17 @@ class Mission
 			name="respawn_east";
 			type="Empty";
 			angle=-889.80109;
+		};
+		class Item290
+		{
+			position[]={9729.4697,139.995,9973.0664};
+			name="airport_factory_1";
+			text="@STRM_mission_marker_airshop";
+			type="Empty";
+			colorName="ColorBlue";
+			a=0.69999999;
+			b=0.69999999;
+			angle=-0.84283602;
 		};
 	};
 	class Sensors

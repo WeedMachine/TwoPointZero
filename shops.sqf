@@ -73,19 +73,19 @@ INV_itemstocks = [
 //SOBR
 -1,
 //Car Shop 1
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,3,4,2,3,2,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0],
 //Car Shop 2
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 //Car Shop 3
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 //Car Shop 4
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 //Car Shop 5
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 //Car Shop 6
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 //Car Shop 7
-[10,5,5,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
+[20,2,1,5,4,2,3,2,2,2,2,3,3,5,5,5,5,5,5,3,3,3,3],
 //Boat Shop 1
 [8,8,8,8,8],
 //Boat Shop 2
@@ -112,6 +112,8 @@ INV_itemstocks = [
 -1,
 //Terro Doctor
 [15,15],
+//Air Shop
+[0,0,0,0,0,0,0,0,0,0],
 //Sell Cocaine
 -1,
 //Sell Marihuana
@@ -259,6 +261,8 @@ INV_itemmaxstocks = [
 -1,
 //Terro Doctor
 [30,30],
+//Air Shop
+[4,4,4,4,4,4,4,5,2,1],
 //Sell Cocaine
 -1,
 //Sell Marihuana
@@ -314,6 +318,7 @@ _cu = ["nitro", "supgrade1", "supgrade2", "supgrade3", "supgrade4", "supgrade5"]
 _terrorshop_buy   = ["Binocular", "NVGoggles","GPS","lockpick", "PK","100Rnd_762x54_PK","RPK_74","75Rnd_545x39_RPK","SVD","10Rnd_762x54_SVD","AKS74U","AK74", "AK74GL", "AKS74PSO", "30Rnd_545x39_AK", "1Rnd_HE_GP25", "RPG7V","PG7VR", "Igla", "Igla_Mag", "HandGrenade_East","Stone", "PipeBomb", "fernzuenderbombe", "zeitzuenderbombe","aktivierungsbombe", "geschwindigkeitsbombe", "selbstmordbombe", "fernzuender", "vclammo","SmokeShellRed","SmokeShell","stoersender"];
 _bt = ["PBX", "Zodiac", "Fishing_Boat", "GNTFSF"];
 _td = ["strangemeat", "medikit"];
+_as = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206_2","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","qantas_C130","CSJ_Spitfire"];
 _dsc = ["cocaine", "lsd", "DirtyMoney"];
 _dsm = ["marijuana", "heroin", "MarijuanaSeed", "HeroinSeed", "DirtyMoney"];
 _dsl = ["lsd"];
@@ -392,6 +397,8 @@ INV_ItemShops = [
 [terrorshop2,"Terror Shop",tgunbox2,dummyobj,_terrorshop_buy,_terrorshop_buy,true],
 [tboatshop1,"Boat Shop",dummyobj,tboatspawn1,_bt,_bt,false],
 [tdoc,"Doctor",dummyobj,dummyobj,_td,_td,false],
+
+[airshop1,"Air Shop",dummyobj,asairspawn,_as,_as,true],
 
 [drugsell1,"Sell Cocaine",dummyobj,dummyobj,_emptyshop,_dsc,true],
 [drugsell2,"Sell Marihuana",dummyobj,dummyobj,_emptyshop,_dsm,true],

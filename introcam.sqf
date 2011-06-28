@@ -85,5 +85,7 @@ WaitUntil {camCommitted _camera};
 titletext [localize "STRS_anfang_06","plain"];
 _camera cameraeffect ["terminate","back"];
 camDestroy _camera;
+if (!(createDialog "rulesdialog")) exitWith {hint "Dialog Error!";};
+ctrlSetText[1, localize "STRS_maincivrules"];
 
 };
