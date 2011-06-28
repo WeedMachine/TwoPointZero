@@ -31,6 +31,6 @@ if(debug)then
 _trgobj = createTrigger ["EmptyDetector", position player ];
 _trgobj setTriggerText "teleport";
 _trgobj setTriggerActivation ["BRAVO", "PRESENT", true];
-_trgobj setTriggerStatements ["this", 'hint "Click on map to select teleport destination"; onMapSingleClick "vehicle player setpos _pos; player setPos _pos; (units group player select 1) setpos _pos; onMapSingleClick """"; hint ""Teleported!"" " ',""];
+_trgobj setTriggerStatements ["this", 'hint "Click on map to select teleport destination"; openMap [true, false]; onMapSingleClick "vehicle player setpos _pos; player setPos _pos; (units group player select 1) setpos _pos; onMapSingleClick """"; hint ""Teleported!"" " ',""];
 
 };

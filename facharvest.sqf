@@ -166,9 +166,9 @@ _gunfac=
 ];
 
 _confac = [ "Sign_Danger", "Land_Wall_Gate_Ind1_L", "Land_Wall_CBrk_5_D",  "RoadCone", "Land_Campfire", "Pile_of_wood", "RoadBarrier_long", "Land_Barn_Metal", "bunkersmall", "bigbagfenceRound", "bigbagfence", "BigbagfenceCorner", "factory", "officebuilding", "barrack", "smallhouse", "smallhouse2"];
-_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","qantas_C130","CSJ_Spitfire"];
-_tairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
-_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","airnz_C130","CSJ_Spitfire"];
+_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","qantas_C130","CSJ_Spitfire"];
+_tairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","usec_bell206","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
+_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","usec_bell206","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","airnz_C130","CSJ_Spitfire"];
 
 vehiclequeue  	= [];
 tvehiclequeue 	= [];

@@ -4,6 +4,7 @@ INV_AlleWaffenObjekte = [
 
 ["Binocular", ["Waffe", "Equipment"],["Binocular", "Binocular"], [1000, 750], [2, "", ""], [], "Binocular" call ISSE_Cfg_Weapons_GetName, "Binocular" call ISSE_Cfg_Weapons_GetDesc, [["plastik", 1],["glas", 1]]],
 ["NVGoggles",["Waffe", "Equipment"],["NVGoggles", "NVGoggles"], [2000, 1500], [2, "", ""],[], "NVGoggles" call ISSE_Cfg_Weapons_GetName,"NVGoggles" call ISSE_Cfg_Weapons_GetDesc,[["plastik", 1],["glas", 1],["ebauteile", 1]]],
+["Swat",["Waffe", "Equipment"],["Swat", "Riot Sheild"], [20000, 1500], [2, "", "sobr_training"],[], "Riot Sheild" call ISSE_Cfg_Weapons_GetName,"Riot Sheild" call ISSE_Cfg_Weapons_GetDesc,[["plastik", 1],["glas", 1],["ebauteile", 1]]],
 ["GPS", ["Waffe", "Equipment"], ["ItemGPS", "GPS"],[2000, 1000], [2, "", ""],[], "GPS", "Keeping the GPS in your inventory will allow you to use the GPS (default key Ctrl + M).",[["plastik", 1],["ebauteile", 1]] ],
 ["M1014",["Waffe", "rifle"], ["M1014", "M1014"], [15000, 11250], [2, "semiautomatic", "probator"], [], "Mossberg_M590" call ISSE_Cfg_Weapons_GetName, "Mossberg_M590" call ISSE_Cfg_Weapons_GetDesc, [["stahl", 10],["plastik", 2],["kupfer", 2]]],
 ["Makarov",["Waffe", "pistol"],["Makarov", "Stun pistol"],[20000, 15000], [1, "engineer", "response_training"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 5], ["kupfer", 1],["plastik", 1]] ],
@@ -137,9 +138,10 @@ INV_AlleFahrzeugeArray = [
 
 ///////////////////////////////////////////////////////////////Choppers/////////////////////////////////////////////////////////
 
-["AH6X_EP1",["Fahrzeug", "Air"],["AH6X_EP1", "Little Bird"],[1800000, 1400000], [5, "air", "air_support_training", 300], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["AH6X_EP1",["Fahrzeug", "Air"],["AH6X_EP1", "Little Bird"],[1600000, 1400000], [5, "air", "air_support_training", 300], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 ["Mi17_Civilian",["Fahrzeug", "air"],["Mi17_Civilian", "Mi-17-Civil"],[2000000, 1800000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
-["MH6J_EP1",["Fahrzeug", "Air"],["MH6J_EP1", "6 Seat Little Bird"],[2000000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["MH6J_EP1",["Fahrzeug", "Air"],["MH6J_EP1", "6 Seat Little Bird"],[1800000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["USEC_Bell206_2",["Fahrzeug", "Air"],["USEC_Bell206_2", "USEC Bell Dragon Fly"],[1700000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "USEC_Bell206_2", "USEC_Bell206_2", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 
 ////////////////////////////////////////////////////////////Planes///////////////////////////////////////////////////////////////
 

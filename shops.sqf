@@ -306,7 +306,7 @@ _cv = ["MMT_USMC","M1030", "LadaLM", "hilux1_civil_3_open", "Kamaz", "HMMWV", "C
 _copshop = ["M1014","8Rnd_B_Beneli_74Slug","M9","Rnd_9x19_M9","Colt1911","Rnd_45ACP_1911","Itembag","waffentasche", "lockpick","kleinesreparaturkit", "kanister","CheeseBurger","medikit", "handy", "Binocular", "NVGoggles"];
 _copshop_patrol = ["roadblock","bargate","searchlight","nitro","supgrade1","supgrade2","supgrade3","supgrade4","supgrade5","SmokeShellRed","SmokeShell","cl_Spikestrip"];
 _copshop_response = ["MP5A5","30Rnd_9x19_MP5","Bizon","64Rnd_9x19_Bizon","Saiga12K", "Rnd_B_Saiga12_74Slug","Makarov","8Rnd_9x18_MakarovSD","reparaturkit","SmokeShellGreen", "defuser"];
-_copshop_sobr = ["M24","M24_des_EP1","5Rnd_762x51_M24","DMR","20Rnd_762x51_DMR","M4A1","M4A1_Aim","M4A1_HWS_GL","M4A1_RCO_GL","M4A3_CCO_EP1","1Rnd_HE_M203","30Rnd_556x45_Stanag","1Rnd_HE_GP25","FlareWhite_GP25", "FlareGreen_GP25", "FlareRed_GP25", "FlareYellow_GP25", "VSS_vintorez","10Rnd_9x39_SP5_VSS","SVD","10Rnd_762x54_SVD","KSVK","5Rnd_127x108_KSVK","PK","Pecheneg","100Rnd_762x54_PK","RPG18","RPG18_mag","MetisLauncher","AT13_mag", "Strela","Strela_mag","PipeBomb", "SmokeShell","HandGrenade_West"];
+_copshop_sobr = ["M24","M24_des_EP1","5Rnd_762x51_M24","DMR","20Rnd_762x51_DMR","M4A1","M4A1_Aim","M4A1_HWS_GL","M4A1_RCO_GL","M4A3_CCO_EP1","1Rnd_HE_M203","30Rnd_556x45_Stanag","1Rnd_HE_GP25","FlareWhite_GP25", "FlareGreen_GP25", "FlareRed_GP25", "FlareYellow_GP25", "VSS_vintorez","10Rnd_9x39_SP5_VSS","SVD","10Rnd_762x54_SVD","KSVK","5Rnd_127x108_KSVK","PK","Pecheneg","100Rnd_762x54_PK","RPG18","RPG18_mag","MetisLauncher","AT13_mag", "Strela","Strela_mag","PipeBomb", "SmokeShell","Swat","Rnd_9x19_M9","8Rnd_9x18_Makarov","30Rnd_545x39_AK","HandGrenade_West"];
 _cs = ["MMT_Civ","TT650_Civ","TT650_Ins","Tractor","oltruc3","Skoda","CL_bmw323_blue","SkodaBlue","SkodaRed","SkodaGreen","civic","Lada_base","Lada1","Lada2","VWGolf","Ikarus","Civcar","Civcarbl","Civcarbu","Civcarge","Civcarre","Civcarsl","Civcarwh"]; 
 _bs = ["PBX", "Zodiac", "Fishing_Boat", "Smallboat_1", "Smallboat_2"];
 _ts = ["UralCivil", "UralCivil2", "V3S_Civ", "oldtruc2a", "oldtruc2", "mackr"];
@@ -380,7 +380,7 @@ INV_ItemShops = [
 [boatshop2, "Boat Shop",dummyobj,boatspawn2,_bs,_bs,true],
 [boatshop3, "Boat Shop",dummyobj,boatspawn3,_bs,_bs,true],
 [boatshop4, "Boat Shop",dummyobj,boatspawn4,_bs,_bs,true],
-[
+
 [truckshop,"Truck Shop",dummyobj,truckspawn,_ts,_ts,true],
 [truckshop1,"Truck Shop",dummyobj,truckspawn1,_ts,_ts,true],
 [truckshop2,"Truck Shop",dummyobj,truckspawn2,_ts,_ts,true],
