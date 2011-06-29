@@ -1,6 +1,7 @@
 // animplay.sqf
 
 if ((_this select 0) == -1) exitWith {player groupChat localize "STRS_anim_noselect"};
+if(vehicle player != player) exitWith {hint "You must be on foot"};
 _animnumber       = _this select 0;
 _animScriptName   = _this select 1; 
 _animname         = ((ANIM_AllAnimationArray select _animnumber) select 0);

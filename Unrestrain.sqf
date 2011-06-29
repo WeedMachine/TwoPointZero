@@ -1,6 +1,7 @@
 if (!alive player)exitwith{}; 
 
 isstunned=true;
+closedialog 0;
 
 player groupchat "You have been restrained!"; 
 disableUserInput true;

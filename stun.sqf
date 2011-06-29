@@ -1,4 +1,5 @@
 _art         = _this select 0;
+closedialog 0;
 _stunbullets = [ "B_12Gauge_74Slug", "B_12Gauge_74Slug", "F_40mm_White", 1, "B_9x18_SD", "8Rnd_9x18_MakarovSD","8Rnd_9x18_Makarov"]; 
 
 if (_art == "fired") then 
@@ -122,6 +123,7 @@ if(isstunned) exitwith
 	{
 
 	StunActiveTime = StunActiveTime + StunTimePerHit;
+	closedialog 0;
 	(format["server globalchat ""%1 was stunned by %2"";", name player, name _shooter]) call broadcast;																																																								
 	"dynamicBlur" ppEffectEnable true; 
 	"dynamicBlur" ppEffectAdjust [10]; 
