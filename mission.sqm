@@ -4107,7 +4107,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop1";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Chief (AWT)";
 				};
 			};
@@ -4129,7 +4129,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop2";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4151,7 +4151,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop3";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4173,7 +4173,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop4";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4195,7 +4195,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop5";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4217,7 +4217,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop6";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4239,7 +4239,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop7";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4261,7 +4261,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop8";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4283,7 +4283,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop9";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4305,7 +4305,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop10";
-					init="Side = west";
+					init="removeallweapons this;";
 					description="Police Officer (AWT)";
 				};
 			};
@@ -4700,8 +4700,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop11";
-					init="Side = west";
-					description="Police Tactical Group (ADF)";
+					init="removeallweapons this;";
+					description="Police Tactical Group (AFP)";
 				};
 			};
 		};
@@ -4721,8 +4721,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop12";
-					init="Side = west";
-					description="Police Tactical Group (ADF)";
+					init="removeallweapons this;";
+					description="Police Tactical Group (AFP)";
 				};
 			};
 		};
@@ -4742,8 +4742,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop14";
-					init="Side = west";
-					description="Police Tactical Group (ADF)";
+					init="removeallweapons this;";
+					description="Police Tactical Group (AFP)";
 				};
 			};
 		};
@@ -4763,8 +4763,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop13";
-					init="Side = west";
-					description="Police Tactical Group (ADF)";
+					init="removeallweapons this;";
+					description="Police Tactical Group (AFP)";
 				};
 			};
 		};
@@ -4784,8 +4784,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cop15";
-					init="Side = west";
-					description="Police Tactical Group (ADF)";
+					init="removeallweapons this;";
+					description="Police Tactical Group (AFP)";
 				};
 			};
 		};
@@ -25887,7 +25887,7 @@ class Mission
 		};
 		class Item2043
 		{
-			position[]={5333.0859,0.43186092,-3108.0029};
+			position[]={6361.8257,0.17689979,-643.31665};
 			azimut=359.41061;
 			id=2260;
 			side="EMPTY";
@@ -31598,7 +31598,7 @@ class Mission
 		};
 		class Item286
 		{
-			position[]={-7290.5962,0.11690751,10098.057};
+			position[]={-6069.7559,0.22189678,6886.3672};
 			name="police_area_1";
 			text="Military Base";
 			markerType="RECTANGLE";
