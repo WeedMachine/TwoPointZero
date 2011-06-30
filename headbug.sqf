@@ -20,10 +20,6 @@ waitUntil {vehicle player != player};
 unassignVehicle player;
 player action ["Eject",vehicle player];
 waitUntil {vehicle player == player};
-//Weed Added these to variables, stops players having to restart there game because its bugged out on them.
-slavescriptrunning = 0;
-harvestscript = 0;
-processscriptrunning = 0
 player setpos _pos;
 player setdir _dir;
 titleCut["", "BLACK in",2];

@@ -14,7 +14,7 @@ if ("patrol_training" call INV_HasLicense) then
 
 	{
 
-	_income = _income + (1000 + random 1000 - random 500);
+	_income = _income + (1000 + random 500 - random 500);
 
 	};
 
@@ -22,7 +22,7 @@ if ("response_training" call INV_HasLicense) then
 
 	{
 
-	_income = _income + (1500 + random 1000 - random 500);
+	_income = _income + (1000 + random 500 - random 500);
 
 	};
 
@@ -30,19 +30,21 @@ if ("swat_training" call INV_HasLicense) then
 
 	{
 
-	_income = _income + (2000 + random 2000 - random 1000);
+	_income = _income + (2000 + random 1000 - random 1000);
 
 	}; 
 
+kontostand = kontostand + (round _income);
+	
 if (ischief) then 
 
 	{
 																					
-	_income = _income + (2000);                     																											
+	_income = _income + chiefExtraPay;
+	kontostand = kontostand + (round _income);
 		
 	};
 
-kontostand = kontostand + (round _income);
 player groupChat format[localize "STRS_geld_copmoneyadd", rolestring, ((round _income) call ISSE_str_IntToStr)];
 sleep 1;					
 if(ischief)then{player groupchat format["As a Police Chief you get an extra paycheck of $%1.", (chiefExtraPay call ISSE_str_IntToStr)]};   

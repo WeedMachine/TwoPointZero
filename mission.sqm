@@ -117,8 +117,8 @@ class Mission
 	randomSeed=10513215;
 	class Intel
 	{
-		briefingName="Down Under Current V1.14c";
-		briefingDescription="By The DownUnder Community";
+		briefingName="@STRM_mission_title";
+		briefingDescription="@STRM_mission_description";
 		resistanceWest=0;
 		startWeather=0.011344254;
 		startFog=0.74964577;

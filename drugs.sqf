@@ -25,7 +25,7 @@ INV_DrogenCounter =  INV_DrogenCounter + _anzahl;
 [_item, -(_anzahl)] call INV_AddInventoryItem;
 _endeZeit = time + 60 + (_anzahl * 10);
 
-if (_item == "lsd") then 
+if (_item == "heroin") then 
 
 	{
 

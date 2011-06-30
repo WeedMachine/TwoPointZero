@@ -34,7 +34,7 @@ _exitvar = 0;
 _a1 = 0; 
 _action = 0; 
 sleep 2;
-slavescriptrunning = 0;
+
 
 while {true} do 
 
@@ -105,4 +105,4 @@ else    {
 	};
 
 };
-
+slavescriptrunning = 0;

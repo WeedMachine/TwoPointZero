@@ -194,14 +194,15 @@ if (isServer) then
 {
 
 ["serverloop1"]	execVM "servermissionfile\commonloop.sqf";
-[0, 0, 0, ["serverloop"]] execVM "mayor.sqf";
-[0, 0, 0, ["serverloop"]] execVM "chief.sqf";
-[0, 0, 0, ["serverloop"]] execVM "gangs.sqf";
+[0, 0, 0, ["serverloop"]] execVM "servermissionfile\mayorserverloop.sqf";
+[0, 0, 0, ["serverloop"]] execVM "servermissionfile\chiefserverloop.sqf";
+[0, 0, 0, ["serverloop"]] execVM "servermissionfile\gangsserverloop.sqf";
 [] execVM "servermissionfile\druguse.sqf";
 [] execVM "servermissionfile\drugreplenish.sqf";
 [] execVM "servermissionfile\governmentconvoy.sqf";
 //[]execVM "checkradio.sqf";
 [] execVM "initRadio.sqf";
+[] execVM "blackmark.sqf";
 [] execVM "servermissionfile\robpool.sqf";
 [] execVM "servermissionfile\hunting.sqf";
 ["init"] execVM "hideout.sqf";
