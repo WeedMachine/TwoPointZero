@@ -1,91 +1,28 @@
+//written by eddie vedder
+
 _label = _this select 0;
 
-if (_label == "texte") then 
+if (_label == "basicintro") then 
 
 {
-
-sleep 5;
-disableUserInput false;
-titletext [localize "STRS_anfang_01","plain"];
-sleep 4;
+playmusic "Track16_Valentine";
+titleCut ["","BLACK OUT",0];
+sleep 1;
+disableuserinput true;
+titletext [localize "STRS_anfang_laden","plain"];
+sleep 14;
 titletext [localize "STRS_anfang_02","plain"];
-sleep 4;
+sleep 14;
 titletext [localize "STRS_anfang_03","plain"];
-sleep 4;			
-titletext [format [localize "STRS_anfang_04",version],"plain"];
-sleep 10;
-3 fademusic 0;
-
-};
-
-if (_label == "kamera") then 
-
-{
-
-titlecut [" ","Black out",0];							
-titletext [localize "STRS_anfang_laden","plain"];				
-_camera = "camera" camcreate [(getmarkerpos "hospitaltent" select 0) - 25,(getmarkerpos "hospitaltent" select 1) - 100,22];												
-_camera cameraeffect ["internal", "back"];						
-sleep 5;														
-titlecut [" ","Black in", 20];
-
-if (iscop) then 
-
-{
-playMusic "Bad_Boys";
-titletext [localize "STRS_anfang_05_cop","plain"];
-_camera camPrepareTarget getpos copbase1;																						_camera camPreparePos [(getpos copbase1 select 0),(getpos copbase1 select 1),(getpos copbase1 select 2) + 50];																				
-_camera camPrepareFOV 0.559;
-_camera camCommitPrepared 8;
-WaitUntil {camCommitted _camera};
-titletext [localize "STRS_anfang_cop_loadout","plain"];
-_camera camPrepareTarget [(getpos copbase1 select 0) - 100, (getpos copbase1 select 1), (getpos copbase1 select 2) - 100];																						_camera camPreparePos [(getpos copbase1 select 0),(getpos copbase1 select 1),(getpos copbase1 select 2) + 50];																				
-_camera camPrepareFOV 1.499;
-_camera camCommitPrepared 5;
-WaitUntil {camCommitted _camera};
-_camera camPrepareTarget [(getpos copbase1 select 0) - 200, (getpos copbase1 select 1), (getpos copbase1 select 2) - 200];																						_camera camPreparePos [(getpos copbase1 select 0),(getpos copbase1 select 1),(getpos copbase1 select 2) + 25];																				
-_camera camPrepareFOV 1.600;																							
-_camera camCommitPrepared 5;
-
-	if (count playerWeapons == 0 and count playermagazines == 0) then 
-
-		{
-
-		{player addMagazine _x} forEach CopStartGear_Mags;
-		{player addWeapon   _x} forEach CopStartGear_Weap;	
-	
-		} 
-		else 
-		{
-
-		{player addMagazine _x} forEach playermagazines;
-		{player addWeapon   _x} forEach playerWeapons;										
-
-		};
-
-}else{
-
-playMusic "Down_Under";
-_camera camPrepareTarget _targetciv;
-_camera camPreparePos _posciv;	
-_camera camPrepareFOV _fovciv;
-_camera camCommitPrepared 5;
-											
-};
-
-WaitUntil {camCommitted _camera};
-_rolepos = position player;
-_roledir = getdir player;
-_pos     = [(_rolepos select 0) + ((sin _roledir) * 100), (_rolepos select 1) + ((cos _roledir) * 100),(_rolepos select 2)];
-_camera camSetTarget _pos;
-_camera camsetpos [(getpos player select 0), (getpos player select 1), 1.5];
-_camera camSetFOV 0.700;
-_camera camCommit 3;
-WaitUntil {camCommitted _camera};
+sleep 14;			
+titletext [localize "STRS_anfang_04","plain"];
+sleep 18;
 titletext [localize "STRS_anfang_06","plain"];
-_camera cameraeffect ["terminate","back"];
-camDestroy _camera;
-if (!(createDialog "rulesdialog")) exitWith {hint "Dialog Error!";};
-ctrlSetText[1, localize "STRS_maincivrules"];
+sleep 11;
 
+
+disableuserinput false;
+titleCut ["","BLACK IN",0];
+
+3 fademusic 0;
 };

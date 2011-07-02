@@ -97,7 +97,7 @@ waituntil {!isnil "bis_fnc_init"};
 
 call compile preprocessfile "triggers.sqf";
 
-if(!debug)then{["kamera"] execVM "introcam.sqf";["texte"] execVM "introcam.sqf";};
+if(!debug)then{["basicintro"] execVM "introcam.sqf";["basicintro"] execVM "introcam.sqf";};
 
 if(local server)then{execVM "targets.sqf";};
 
