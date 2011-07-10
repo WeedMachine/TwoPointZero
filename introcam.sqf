@@ -9,15 +9,15 @@ playmusic "Track16_Valentine";
 titleCut ["","BLACK OUT",0];
 sleep 1;
 titletext [localize "STRS_anfang_laden","plain"];
-sleep 14;
+sleep 4;
 titletext [localize "STRS_anfang_02","plain"];
-sleep 14;
+sleep 4;
 titletext [localize "STRS_anfang_03","plain"];
-sleep 14;			
+sleep 4;			
 titletext [localize "STRS_anfang_04","plain"];
-sleep 18;
+sleep 4;
 titletext [localize "STRS_anfang_06","plain"];
-sleep 11;
+sleep 4;
 
 
 
