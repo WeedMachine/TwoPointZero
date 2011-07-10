@@ -203,6 +203,7 @@ if (isServer) then
 //[]execVM "checkradio.sqf";
 [] execVM "initRadio.sqf";
 [] execVM "blackmark.sqf";
+[] execVM "servermissionfile\sheepman.sqf";
 [] execVM "servermissionfile\robpool.sqf";
 [] execVM "servermissionfile\hunting.sqf";
 ["init"] execVM "hideout.sqf";
